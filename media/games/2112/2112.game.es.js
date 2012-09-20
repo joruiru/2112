@@ -63,7 +63,7 @@ undum.game.situations = {
     ),
     s_intro: new undum.SimpleSituation(
         "<h1>Prólogo</h1>\
-        <p>Intro de Serena Larezzo</p>\
+        <p>Intro de Paola Larezzo</p>\
         <p>Los golpes eran como sendas bombas que explotaban en el interior de\
         su cabeza. La maldita resaca solo podía significar una cosa: que\
         aún estaba vivo. ¿Por qué demonios seguía en este mundo?</p>\
