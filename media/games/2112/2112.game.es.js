@@ -43,7 +43,11 @@ undum.game.situations = {
         con otras y, sin embargo, en todas había encontrado los mismos símbolos.</p>\
         <p>Eso solo podía significar que todas esas civilizaciones tenían ancestros\
         comunes: lo que él había llamado Civilización Madre.</p>\
-        <p>¡Toc, toc!</p>\
+        <p><br/></p>\
+        <p class='transient'><a href='wintro2'>&gt; Continúa leyendo.</a></p>"
+    ),
+    wintro2: new undum.SimpleSituation(
+        "<p>¡Toc, toc!</p>\
         <p>Sin embargo, el mayor descubrimiento arqueológico de la historia de la\
         humanidad, en vez de recibir elogios y aplausos, fue rechazado por toda\
         la comunidad científica. El auditorio se fue vaciando entre risas y burlas,\
@@ -56,81 +60,75 @@ undum.game.situations = {
         Era lo único que recordaba.</p>\
         <p>¡Toc, toc!</p>\
         <p>¡Maldita sea! ¿Quién estaba llamando a la puerta? ¡No quería ver a nadie!</p>\
-        <p>Se dio cuenta de que estaba tirado en el suelo al tratar de levantarse.\
+        <p>Al tratar de incorporarse, se dio cuenta de que estaba tirado en el suelo.\
         Se tambaleó. Todavía estaba borracho y la cabeza estaba a punto de estallarle.</p>\
+        <p>¡Toc, toc!</p>\
         <p><br/></p>\
-        <p class='transient'><a href='intro2'>&gt; Continúa leyendo.</a></p>"
+        <p class='transient'><a href='wintro3'>&gt; Continúa leyendo.</a></p>"
     ),
-    s_intro: new undum.SimpleSituation(
+    p_intro: new undum.SimpleSituation(
         "<h1>Prólogo</h1>\
         <p>Intro de Paola Larezzo</p>\
-        <p>Los golpes eran como sendas bombas que explotaban en el interior de\
-        su cabeza. La maldita resaca solo podía significar una cosa: que\
-        aún estaba vivo. ¿Por qué demonios seguía en este mundo?</p>\
-        <p>Su carrera se había acabado. Y su plan de beber hasta quitarse la\
-        vida ahora parece que tampoco había funcionado. ¡Hasta para eso era un\
-        fracasado!</p>\
-        <p>¡Toc, toc!</p>\
-        <p>¿Qué dirán de él hoy los medios especializados? El día anterior los\
-        había convocado a todos en una conferencia de prensa en la que iba a\
-        hacer públicos sus últimos descubrimientos. Pero nada salió como pensaba.\
-        Todos, absolutamente todos, se rieron de él. Delante de sus narices.\
-        ¡De él! ¡De William Bafford, el más grande arqueólogo de su tiempo!</p>\
-        <p>A estas horas, todo el mundo de la arqueología se estaría riendo de\
-        sus descubrimientos. ¡Malditos necios! ¡No sabían ver las señales!\
-        ¡Habían estado ahí, delante de sus narices, durante miles de años esperando\
-        que alguien las interpretara!</p>\
-        <p>Durante la conferencia les había mostrado las pruebas: desde los mayas\
-        a los egipcios, desde los sumerios a los incas. Civilizaciones separadas\
-        por miles de kilómetros y, lo más importante, miles de años entre ellas,\
-        culturas que es totalmente imposible que hubieran tenido contacto unas\
-        con otras y, sin embargo, en todas había encontrado los mismos símbolos.</p>\
-        <p>Eso solo podía significar que todas esas civilizaciones tenían ancestros\
-        comunes: lo que él había llamado Civilización Madre.</p>\
-        <p>¡Toc, toc!</p>\
-        <p>Sin embargo, el mayor descubrimiento arqueológico de la historia de la\
-        humanidad, en vez de recibir elogios y aplausos, fue rechazado por toda\
-        la comunidad científica. El auditorio se fue vaciando entre risas y burlas,\
-        dejándole con la palabra en la boca. Se mofaban de él, hablando de alienígenas,\
-        o incluso de la Atlántida. ¡No tenían ni puta idea de lo que hablaban!</p>\
-        <p>Se quedó solo en la sala, mientras comprendía que su carrera se había\
-        acabado. Le cortarían todas las subvenciones. Le rechazarían en todas las\
-        asociaciones del gremio. Ninguna universidad querría tenerle dando clases\
-        en sus aulas. Se levantó y fue a algún antro a emborracharse. Bebió y bebió.\
-        Era lo único que recordaba.</p>\
-        <p>¡Toc, toc!</p>\
-        <p>¡Maldita sea! ¿Quién estaba llamando a la puerta? ¡No quería ver a nadie!</p>\
-        <p>Se dio cuenta de que estaba tirado en el suelo al tratar de levantarse.\
-        Se tambaleó. Todavía estaba borracho y la cabeza estaba a punto de estallarle.</p>\
+        <p>El circo mediático había empezado temprano. Las unidades móviles de\
+        televisión iban entrando en la plaza de San Pedro, reclamando el lugar\
+        que se les había asignado.</p>\
+        <p>El sedán negro de lunas tintadas avanzaba con lentitud entre la\
+        multitud y el mar de cámaras que abarrotaban la plaza. Iba sentada en\
+        el asiento trasero, repasando una y otra la citación de\
+        la Santa Sede, que sostenía en sus manos.</p>\
+        <p>Era un fax del cardenal Benigno Schiavone, el secretario de Estado\
+        del Vaticano, el segundo cargo más poderoso de la Iglesia católica, detrás,\
+        obviamente, del Papa. Se requería su presencia inmediata en la Santa Sede.</p>\
+        <p>¿Qué querría de ella el cardenal Schiavone? ¿Y por qué precisamente\
+        ese día y no otro?</p>\
+        <p>El Vaticano se convertía ese día en el centro de atención mediático\
+        de todo el mundo. Comenzaba el juicio a Paolo Gabriele, ex mayordomo\
+        personal del Papa, por el llamado caso &laquo;Vatileaks&raquo;.</p>\
         <p><br/></p>\
-        <p class='transient'><a href='intro2'>&gt; Continúa leyendo.</a></p>"
+        <p class='transient'><a href='pintro2'>&gt; Continúa leyendo.</a></p>"
     ),
-    intro2: new undum.SimpleSituation(
-        "<p>Valerya y él tenían la misma edad. La recordaba como si fuera ayer\
-        mismo, con su cabellera bruna siempre recogida en las características\
-        trenzas que le colgaban sobre ambos hombros. Tenía una perpetua y hermosa\
-        sonrisa, que le daba un brillo especial a sus hipnotizantes ojos negros.</p>\
-        <p>Era casi tan alta como él, aunque su piel era bastante más morena.\
-        Morena, que no negra. Tenía la belleza de las mujeres sureñas.</p>\
-        <p>Sí, ahora podía decir que Valerya era muy guapa. Según sus recuerdos,\
-        tal vez era la chica más guapa que había conocido hasta ahora, y eso que\
-        había conocido a unas cuantas, aunque entonces no pensaba en las mujeres\
-        como lo hacía ahora. Era un criajo de 14 años que sólo tenía en la cabeza\
-        matar dragones y derrotar en torneos a los mejores caballeros de cada reino.</p>\
-        <p>Kallo era un año más mayor que Valerya y él. Sin embargo, los dos le sacaban\
-        casi una cabeza de altura. Era su mejor amigo. Cada vez que pensaba en él,\
-        lo recordaba siempre con algún libro bajo el brazo. Kallo era de los pocos\
-        que sabían leer en la aldea, adultos incluidos. Su habilidad con las letras\
-        y los números les había sacado a los tres de varios lios de aúpa. Durante\
-        sus viajes no había conocido a ningún sabio más inteligente que su amigo,\
-        a pesar de que había conocido a alguno que le triplicaba o cuatriplicaba\
-        fácilmente la edad.</p>\
-        <p>Ahora, podía ver con claridad que Kallo estaba destinado\
-        a convertirse en el Gran Maestre de alguna orden y que su nombre se\
-        recordase para siempre. De los tres, quizá sería el único que pudiese\
-        lograr el sueño que tenían de pequeños de pasar a la posteridad siendo\
-        los protagonistas de alguna historia. Le quedaba la esperanza de que en\
-        alguna historia sobre Kallo se hiciera eco de los amigos del héroe.</p>\
+    pintro2: new undum.SimpleSituation(
+        "<p>Albergaba la esperanza de que la citación no tuviera nada que ver\
+        con el juicio, aunque, la verdad, lo dudaba mucho.</p>\
+        <p>Como agente de los servicios secretos del Vaticano, había participado en\
+        la investigación del caso Vatileaks. De hecho, su participación había\
+        sido determinante para identificar y detener al filtrador de los\
+        documentos papales a la prensa.</p>\
+        <p>Ella había ideado la trampa que desenmascaró a Paolo Gabriele.</p>\
+        <p>El sedán negro llegó a la entrada del <i>Governorate</i>. Dos soldados\
+        de la Guardia Suiza, que, ataviados con sus llamativos uniformes, protegían\
+        la entrada, adoptaron la posición de firmes cuando el coche se detuvo.</p>\
+        <p>Esperó a que el chófer le abriese la puerta y le ofreciese un paraguas.\
+        Cogió aire nada más bajar del coche. Tenía la sensación de que ese podía ser\
+        el último soplo de aire fresco del que disfrutaría en un tiempo.</p>\
+        <p>Uno de los guardias le dedicó una sonrisa cuando atravesó la puerta.<p>\
+        <p><br/></p>\
+        <p class='transient'><a href='pintro3'>&gt; Continúa leyendo.</a></p>"
+    ),
+    pintro3: new undum.SimpleSituation(
+        "<p>&#8212;Señorita Larezzo. Por aquí.</p>\
+        <p>El interior estaba seco y caldeado. El joven sacerdote que la estaba\
+        esperando la había reconocido al instante.</p>\
+        <p>Podía escuchar el murmullo de actividad que provenía de las diferentes\
+        oficnas mientras seguía al joven por los pasillos en dirección a un ascensor.</p>\
+        <p>La oficina del secretario de Estado se encontraba en la cuarta planta.\
+        El joven sacerdote la invitó a que entrase en el despacho, antes de cerrar la\
+        puerta tras ella.</p>\
+        <p>La estancia tenía un estilo antiguo y elegante. Las paredes estaban\
+        decoradas con cuadros medievales y mapas antiguos.</p>\
+        <p>Sentado en un sillón de cuero negro y respaldo alto había un hombre de\
+        edad muy avanzada, que levantó la mirada del expediente que estaba leyendo.\
+        Su vestimenta, toda de blanco, con el cordón dorado al cuello, armonizaba\
+        perfectamente con su cabello completamente canoso.<p>\
+        <p>&#8212;Señorita Larezzo &#8212;dijo el joven sacerdote&#8212;, Su Santidad.</p>\
+        <p>&laquo;Como si el Papa necesitara presentación alguna&raquo;, pensó.</p>\
+        <p>&#8212;Santidad &#8212;lo saludó ella mientras el sacerdote cerraba la\
+        puerta al salir</p>\
+        <p>&#8212;Señorita Larezzo. &#8212;El Papa se dirigió a ella con un afecto\
+        genuino al tiempo que le indicaba con un gesto que tomara asiento&#8212;.\
+        Paola Larezzo. Hace ya tiempo que quería conocerla.</p>\
+        <p>Sorprendida, se hundió en la silla de cuero mientras el Santo Padre\
+        volvía a examinar el informe que había redactado el Vaticano acerca de ella.</p>\
         <p><br/></p>\
         <p class='transient'><a href='intro3'>&gt; Continúa leyendo.</a></p>"
     ),
@@ -789,7 +787,7 @@ undum.game.situations = {
 //if (system.rnd.randomInt(1, 10) < 6) {
   undum.game.start = "w_intro";
 //} else {
-//  undum.game.start = "s_intro";
+//  undum.game.start = "p_intro";
 //}
 
 // ---------------------------------------------------------------------------
@@ -937,6 +935,6 @@ undum.game.init = function(character, system) {
     if (system.rnd.randomInt(1, 10) < 6) {
       undum.game.start = "w_intro";
     } else {
-      undum.game.start = "s_intro";
+      undum.game.start = "p_intro";
     }
 };
