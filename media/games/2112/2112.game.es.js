@@ -64,11 +64,109 @@ undum.game.situations = {
         Se tambaleó. Todavía estaba borracho y la cabeza estaba a punto de estallarle.</p>\
         <p>¡Toc, toc!</p>\
         <p><br/></p>\
-        <p class='transient'><a href='wintro3'>&gt; Continúa leyendo.</a></p>"
+        <p class='transient'><a href='wintro3'>&gt; Abrir la maldita puerta.</a></p>\
+        <p class='transient'><a href='wintro4'>&gt; Ir a la cama y olvidarse del mundo.</a></p>"
     ),
+    wintro3: new undum.SimpleSituation(
+        "<p>Hizo un esfuerzo por mantenerse en pie y se encaminó hacia la puerta.\
+        La abrió y se encontró frente a un anciano de unos 70 años. Vestía ropas\
+        caras y elegantes y portaba unas enormes gafas. En su mano derecha, sujetaba\
+        un bastón de madera de roble, seguramente para ayudarse al caminar.</p>\
+        <p>&#8212;¿Qué demonios quiere? &#8212;le espetó al anciano.</p>\
+        <p>&#8212;Buenas tardes, señor Bafford. &#8212;contestó&#8212; Bonito aspecto.</p>\
+        <p>Se miró y comprobó que tenía manchas de vómito en la ropa, y un lamparón en la\
+        entrepierna que sólo podía significar una cosa.</p>\
+        <p>&#8212;No quiero hablar con nadie. Márchese. &#8212;es lo único que acertó a decir.</p>\
+        <p>Intentó cerrar la puerta, pero el anciano había puesto el bastón para impedirlo.</p>\
+        <p>&#8212;Estoy aquí para ofrecerle un empleo. &#8212;dijo el anciano.</p>\
+        <p>Atrajo su atención.</p>\
+        <p>&#8212;Mi nombre es Hiddell Connor. Y tengo algunos símbolos muy antiguos en los\
+        que me gustaría que trabajase.</p>\
+        <p>&#8212;¿Qué clase de trabajo?</p>\
+        <p>&#8212;Me gustaría poder explicárselo todo, pero este proyecto implica un alto\
+        grado de confidencialidad.</p>\
+        <p>&#8212;Entonces, ¿por qué debería aceptar un trabajo del que no sé nada?</p>\
+        <p>&#8212;No tiene familia o amigos. En su escritorio hay demasiadas facturas sin\
+        pagar. Y, por si fuera poco, después de su conferencia de ayer no le van a llover\
+        las ofertas de trabajo. &#8212;Connor tenía preparada la respuesta&#8212; Pero\
+        hay una razón aún más fuerte por la que debe aceptar el trabajo que le ofrezco.</p>\
+        <p>&#8212;¿Cuál es?</p>\
+        <p>&#8212;Que demuestre que sus teorías son ciertas.</p>\
+        <p><br/></p>\
+        <p class='transient'><a href='wintro5'>&gt; Aceptar.</a></p>\
+        <p class='transient'><a href='wintro6'>&gt; Declinar.</a></p>"
+    ),
+    wintro4: new undum.SimpleSituation(
+        "<p>Hizo un esfuerzo por llegar a la cama y se dejó caer. ¡A la mierda quienquiera\
+        que fuera el que llamaba a la puerta! ¡No quería ver a nadie!</p>\
+        <p>¡Toc, toc!</p>\
+        <p>Los ojos se le cerraron. Notaba como se iba sumiendo en un profundo sueño.</p>\
+        <p>¡Toc, toc!</p>\
+        <p>Pudo escuchar un par de toques más antes de perder la consciencia.</p>\
+        <p><br/></p>\
+        <p class='transient'><a href='wintro7'>&gt; Continúa leyendo.</a></p>"
+    ),    
+    wintro6: new undum.SimpleSituation(
+        "<p>&#8212;Es usted muy amable, señor Connor. &#8212;rehusó&#8212; Pero mi carrera\
+        en la arqueología se terminó ayer. Aunque mis teorías fueran ciertas, ya nadie\
+        me tomará en serio.</p>\
+        <p>&#8212;¿Seguro? &#8212;Connor sacó unas fotografías del bolsillo interior de\
+        la chaqueta y se las entregó.</p>\
+        <p>Miró durante unos segundos las fotos. Trató de disimular la cambiante expresión\
+        de su cara, pero parecía que Connor se había percatado de su emoción.</p>\
+        <p>&#8212; Ya ha visto suficiente. ¿Qué me dice ahora, profesor Bafford? &#8212;le\
+        preguntó mientras se volvía a guardar las fotografías.</p>\
+        <p>Pudo escuchar un par de toques más antes de perder la consciencia.</p>\
+        <p><br/></p>\
+        <p class='transient'><a href='wintro5'>&gt; Aceptar.</a></p>\
+        <p class='transient'><a href='wintro11'>&gt; Declinar.</a></p>"
+    ),    
+    wintro7: new undum.SimpleSituation(
+        "<p>No oyó cómo derribaron la puerta de su apartamento. Ni siquiera se despertó\
+        cuando lo sacaron de la cama y lo cargaron en una furgoneta con las lunas tintadas.</p>\
+        <p>Sólo reaccionó cuando un chorro de agua congelada le golpeó con fuerza.</p>\
+        <p>Estaba completamente desnudo y tumbado en el sueño en posición fetal, protegiéndose\
+        del agua.</p>\
+        <p>&#8212;¡Pare, joder! ¡Pare! &#8212;gritaba, pero el militar que le apuntaba con\
+        la manguera no le hizo ningún caso.</p>\
+        <p>Cuando acabó, le dio ropa de su talla y le obligó a acompañarle, sin responder\
+        ninguna de las preguntas que le hizo.</p>\
+        <p><br/></p>\
+        <p class='transient'><a href='wintro8'>&gt; Continúa leyendo.</a></p>"
+    ),    
+    wintro8: new undum.SimpleSituation(
+        "<p>Mientras avanzaba siguiendo a su guía, comprobó que se encontraba en el interior\
+        de algún recinto del ejército, o eso esperaba.</p>\
+        <p>El joven militar se detuvo ante una doble puerta de metal, en la que había un\
+        cartel que rezaba \"Solo personal autorizado\".</p>\
+        <p>&#8212;Es aquí. &#8212;le indicó&#8212; Adelante.</p>\
+        <p>Entró en una sala de reuniones, presidida por una enorme mesa ovalada. Sentados\
+        en cómodos sillones de piel, cuatro militares de alto rango fijaban sus duras miradas\
+        sobre él. Un anciano vestido de civil, de unos 70 años, con barba y pelo totalmente\
+        blancos, completaba el quinteto que le esperaba. Quedaba un sillón libre.</p>\
+        <p>&#8212;Bienvenido, señor Bafford. &#8212;el que hablaba era el anciano&#8212; Lamento\
+        profundamente las molestias que hemos podido causarle. Por favor, tome asiento.</p>\
+        <p>&#8212;¿Quiénes son? ¿Qué quieren de mí? ¿Dónde estoy? &#8212;preguntó mientras se sentaba.</p>\
+        <p>&#8212;Mi nombre es Hiddell Connor. Le hemos traido hasta aquí para ofrecerle un empleo.</p>\
+        <p>&#8212;¿Qué clase de empleo?</p>\
+        <p>&#8212;Tengo algunos símbolos muy antiguos en los que quisiera que trabajase.</p>\
+        <p>&#8212;¿Qué tipo de símbolos son para que interesen al ejército?</p>\
+        <p>&#8212;Me gustaría poder explicárselo todo, pero este proyecto implica un alto\
+        grado de confidencialidad.</p>\
+        <p>&#8212;Entonces, ¿por qué debería aceptar un trabajo del que no sé nada?</p>\
+        <p>&#8212;No tiene familia o amigos. Hemos comprobado que tiene demasiadas facturas sin\
+        pagar. Y, por si fuera poco, después de su conferencia de ayer no le van a llover\
+        las ofertas de trabajo. &#8212;uno de los militares tenía preparada la respuesta.</p>\
+        <p>&#8212; Pero hay una razón aún más fuerte por la que debe aceptar el trabajo\
+        que le ofrezco.&#8212;volvía a ser Connor el que hablaba.</p>\
+        <p>&#8212;¿Cuál es?</p>\
+        <p>&#8212;Que demuestre que sus teorías son ciertas.</p>\
+        <p><br/></p>\
+        <p class='transient'><a href='wintro9'>&gt; Aceptar.</a></p>\
+        <p class='transient'><a href='wintro10'>&gt; Declinar.</a></p>"
+    ),    
     p_intro: new undum.SimpleSituation(
         "<h1>Prólogo</h1>\
-        <p>Intro de Paola Larezzo</p>\
         <p>El circo mediático había empezado temprano. Las unidades móviles de\
         televisión iban entrando en la plaza de San Pedro, reclamando el lugar\
         que se les había asignado.</p>\
@@ -934,7 +1032,9 @@ undum.game.init = function(character, system) {
     
     if (system.rnd.randomInt(1, 10) < 6) {
       undum.game.start = "w_intro";
+      //document.getElementById("nompersonaje").innerHTML("WILLIAM BAFFORD");
     } else {
       undum.game.start = "p_intro";
+      //document.getElementById("nompersonaje").innerHTML("PAOLA LAREZZO");
     }
 };
