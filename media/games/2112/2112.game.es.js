@@ -106,6 +106,16 @@ undum.game.situations = {
         <p><br/></p>\
         <p class='transient'><a href='wintro7'>&gt; Continúa leyendo.</a></p>"
     ),    
+    wintro5: new undum.SimpleSituation(
+        "<p>&#8212;Está bien. Me ha convencido. &#8212;Su cara reflejaba ilusiones\
+        renovadas.&#8212; ¿Cuándo empiezo? </p>\
+        <p>Connor sacó un sobre marrón y se lo entregó.\
+        <p>&#8212;Haga las maletas. Sale mañana. &#8212;La alegría por haber\
+        adquirido un nuevo miembro para su equipo se reflejaba en el rostro de Connor&#8212;\
+        Nos veremos en el Área 51.</p>\
+        <p><br/></p>\
+        <p class='transient'><a href='wintro12'>&gt; Ir al Capítulo 1.</a></p>"
+    ),    
     wintro6: new undum.SimpleSituation(
         "<p>&#8212;Es usted muy amable, señor Connor. &#8212;rehusó&#8212; Pero mi carrera\
         en la arqueología se terminó ayer. Aunque mis teorías fueran ciertas, ya nadie\
@@ -116,7 +126,6 @@ undum.game.situations = {
         de su cara, pero parecía que Connor se había percatado de su emoción.</p>\
         <p>&#8212; Ya ha visto suficiente. ¿Qué me dice ahora, profesor Bafford? &#8212;le\
         preguntó mientras se volvía a guardar las fotografías.</p>\
-        <p>Pudo escuchar un par de toques más antes de perder la consciencia.</p>\
         <p><br/></p>\
         <p class='transient'><a href='wintro5'>&gt; Aceptar.</a></p>\
         <p class='transient'><a href='wintro11'>&gt; Declinar.</a></p>"
@@ -164,6 +173,43 @@ undum.game.situations = {
         <p><br/></p>\
         <p class='transient'><a href='wintro9'>&gt; Aceptar.</a></p>\
         <p class='transient'><a href='wintro10'>&gt; Declinar.</a></p>"
+    ),    
+    wintro9: new undum.SimpleSituation(
+        "<p>&#8212;Me han convencido. ¿Cuándo empiezo? &#8212;Su cara reflejaba ilusiones renovadas.</p>\
+        <p>&#8212;No se imagina cuánto esperábamos esa respuesta. &#8212;La alegría por haber\
+        adquirido un nuevo miembro para su equipo se reflejaba en el rostro de Connor&#8212;\
+        Bienvenido al Área 51.</p>\
+        <p><br/></p>\
+        <p class='transient'><a href='wintro12'>&gt; Ir al Capítulo 1.</a></p>"
+    ),    
+    wintro10: new undum.SimpleSituation(
+        "<p>&#8212;Son ustedes muy amables. &#8212;rehusó&#8212; Pero mi carrera\
+        en la arqueología se terminó ayer. Aunque mis teorías fueran ciertas, ya nadie\
+        las tomaría en serio.</p>\
+        <p>&#8212;¿Está usted seguro de eso? &#8212;Connor sacó unas fotografías del\
+        interior de una carpeta marrón que tenía sobre la mesa y se las mostró.</p>\
+        <p>Miró durante unos segundos las fotos. Trató de disimular la cambiante expresión\
+        de su cara, pero todos los presentes se percataron de su reacción al verlas.</p>\
+        <p>&#8212; Ya ha visto suficiente. ¿Qué me dice ahora, profesor Bafford? &#8212;le\
+        preguntó mientras volvía a guardar las fotografías en la carpeta.</p>\
+        <p><br/></p>\
+        <p class='transient'><a href='wintro9'>&gt; Aceptar.</a></p>\
+        <p class='transient'><a href='wintro12'>&gt; Declinar.</a></p>"
+    ),    
+    wintro11: new undum.SimpleSituation(
+        "<p>&#8212;Lo siento, señor Connor, pero he perdido las ganas. No creo que\
+        pudiera ser de gran ayuda en su proyecto. Deberá buscarse a otro.</p>\
+        <p>&#8212;No sabe cuánto lamento su decisión. &#8212;se despidió mientras\
+        se alejaba cojeando, ayudado por el bastón, por el pasillo.</p>\
+        <p><br/></p>\
+        <h1>*** FIN ***</h1>"
+    ),    
+    wintro12: new undum.SimpleSituation(
+        "<p>&#8212;Lo siento por ustedes, pero deberán buscarse a otro.</p>\
+        <p>&#8212;Lamentamos enormemente su decisión. &#8212;dijo el general que\
+        parecía estar al mando. &#8212;Le llevarán de vuelta a su apartamento.</p>\
+        <p><br/></p>\
+        <h1>*** FIN ***</h1>"
     ),    
     p_intro: new undum.SimpleSituation(
         "<h1>Prólogo</h1>\
@@ -220,15 +266,184 @@ undum.game.situations = {
         perfectamente con su cabello completamente canoso.<p>\
         <p>&#8212;Señorita Larezzo &#8212;dijo el joven sacerdote&#8212;, Su Santidad.</p>\
         <p>&laquo;Como si el Papa necesitara presentación alguna&raquo;, pensó.</p>\
-        <p>&#8212;Santidad &#8212;lo saludó ella mientras el sacerdote cerraba la\
+        <p>&#8212;Santidad. &#8212;lo saludó ella mientras el sacerdote cerraba la\
         puerta al salir</p>\
         <p>&#8212;Señorita Larezzo. &#8212;El Papa se dirigió a ella con un afecto\
-        genuino al tiempo que le indicaba con un gesto que tomara asiento&#8212;.\
+        genuino al tiempo que le indicaba con un gesto que tomara asiento&#8212;\
         Paola Larezzo. Hace ya tiempo que quería conocerla.</p>\
         <p>Sorprendida, se hundió en la silla de cuero mientras el Santo Padre\
         volvía a examinar el informe que había redactado el Vaticano acerca de ella.</p>\
         <p><br/></p>\
-        <p class='transient'><a href='intro3'>&gt; Continúa leyendo.</a></p>"
+        <p class='transient'><a href='pintro4'>&gt; Continúa leyendo.</a></p>"
+    ),
+    pintro4: new undum.SimpleSituation(
+        "<p>&#8212;Se preguntará por qué está aquí.</p>\
+        <p>&#8212;Sí, Santidad. ¿Y por qué precisamente hoy?</p>\
+        <p>&#8212;Cierto. La razón por la que esta cita sea hoy es porque a nadie le resultará\
+        extraño que la agente del servicio secreto que desenmascaró a mi secretario\
+        personal aparezca por aquí el día que empieza el juicio por el escándalo de\
+        &laquo;Vatileaks&raquo;. Todavía no había podido expresale mi más sincera\
+        gratitud por el trabajo realizado. ¿Le llegaron mis felicitaciones?</p>\
+        <p>&#8212;Sí, Santidad. Fue todo un honor.</p>\
+        <p>Tenía una pregunta para hacerle al Papa, pero se debatía entre si sería\
+        lo correcto o no.<p>\
+        <p>&#8212;Señorita Larezzo, diría que algo le preocupa. &#8212;Al parecer,\
+        había notado su lucha interior.</p>\
+        <p>&#8212;Santidad, por sus palabras, deduzco que no estoy aquí por el\
+        juicio a Paolo Gabriele. Y al decirme que a nadie le resultaría extraño\
+        verme precisamente hoy en la Santa Sede, en realidad está diciéndome que\
+        pretende que esta reunión no sea conocida.</p>\
+        <p>&#8212;Es usted directa, como bien dice su informe.</p>\
+        <p>&#8212;Los servicios secretos del Vaticano son los mejores del mundo.</p>\
+        <p>&#8212;Eso dicen. Tiene usted razón. Tradicionalmente, el Papa siempre ha tenido\
+        muchos enemigos, dentro y fuera de la Iglesia. Y yo no iba a ser una excepción.</p>\
+        <p>Incrementó su atención, pues ahora venía lo realmente interesante.</p>\
+        <p>&#8212;Digame, ¿cree usted en Dios, Paola?</p>\
+        <p><br/></p>\
+        <p class='transient'><a href='pintro5/si' class='once'>&gt; Sí.</a></p>\
+        <p class='transient'><a href='pintro5/no' class='once'>&gt; No.</a></p>"
+    ),
+    pintro5: new undum.SimpleSituation(
+        "",
+        {
+            actions: {
+                "si": "<p>&#8212;Sí. &#8212; Paola no dudó ni un instante.</p>\
+                       <p><br/></p>\
+                       <p class='transient'><a href='pintro6'>&gt; Continúa leyendo.</a></p>",
+                "no": "<p>&#8212;No creo en una divinidad omnipotente que nos creara\
+                      a nosotros y al universo entero. &#8212;No había encontrado\
+                      mejor respuesta para decir al Papa cara a cara que no era creyente.</p>\
+                      <p><br/></p>\
+                      <p class='transient'><a href='pintro6'>&gt; Continúa leyendo.</a></p>"
+            }
+        }
+    ),
+    pintro6: new undum.SimpleSituation(
+        "<p>&#8212;¿Y qué opinión tiene de la Iglesia? ¿Una buena idea que se estropeó en el camino?</p>\
+        <p>&#8212;Como todas las instituciones humanas, la Iglesia terrenal es un\
+        organismo corrupto. &#8212;contestó ella&#8212; Pero ha proporcionado hospitales,\
+        orfanatos y esperanza a toda la humanidad. Sin ella, la civilización se hundiría\
+        en un abismo moral.</p>\
+        <p>&#8212;Me alegra oirle decir eso. &#8212;Había cierta ternura en la mirada\
+        del Santo Padre&#8212; Paola, quiero que medite con seriedad si desea en su\
+        interior responder a la desesperada llamada que le hago para llevar a cabo una\
+        misión sagrada para la Santa Iglesia Católica.</p>\
+        <p>Lo único que le decía su interior era que había algo raro en todo aquel asunto.</p>\
+        <p>&#8212;¿Qué clase de misión?</p>\
+        <p>&#8212;Entienda que no le pueda dar más detalles hasta que me diga si acepta\
+        el trabajo o no. Sólo usted y yo sabremos de la existencia de esta misión.</p>\
+        <p><br/></p>\
+        <p class='transient'><a href='pintro8' class='once'>&gt; Aceptar.</a></p>\
+        <p class='transient'><a href='pintro7' class='once'>&gt; Declinar.</a></p>"
+    ),
+    pintro7: new undum.SimpleSituation(
+        "<p>&#8212;Santidad, es un gran honor que haya pensado en mi, pero en estos\
+        momentos no creo que sea la persona adecuada para participar en una misión\
+        secreta. Soy uno de los focos de atención mientras dure el juicio a Gabriele.</p>\
+        <p>&#8212;Lamento profundamente su decisión, señorita Larezzo. &#8212;El Santo\
+        Padre se levantó del sillón y se dirigió a la puerta.&#8212; Recuerde que esta\
+        reunión no ha tenido lugar y que su estancia en el Vaticano se debe al juicio.\
+        Un placer haberla conocido, Paola. Que Dios le bendiga.</p>\
+        <p>El Papa desapareció por los pasillos y le dejó allí sola, hasta que entró\
+        el joven sacerdote para guiarla hasta la salida.</p>\
+        <p><br/></p>\
+        <h1>*** FIN ***</h1>"
+    ),    
+    pintro8: new undum.SimpleSituation(
+        "<p>El Papa se levantó y comenzó a caminar por el despacho mientras hablaba.</p>\
+        <p>&#8212;¿Conoce usted a San Malaquías?</p>\
+        <p><br/></p>\
+        <p class='transient'><a href='pintro9/si' class='once'>&gt; Sí.</a></p>\
+        <p class='transient'><a href='pintro9/no' class='once'>&gt; No.</a></p>"
+    ),
+    pintro9: new undum.SimpleSituation(
+        "",
+        {
+            actions: {
+                "si": "<p>&#8212;Sí. Fue un arzobispo católico irlandés del siglo XII, famoso por\
+                       por la &laquo;profecía de los Papas&raquo;. Una lista de 112 lemas sobre\
+                       todos los Papas desde Celestino II hasta un supuesto Pedro el\
+                       Romano, que será el Papa durante cuyo gobierno llegará el\
+                       Apocalipsis y la ciudad de las siete colinas, Roma, será destruida.</p>\
+                       <p><br/></p>\
+                       <p class='transient'><a href='pintro10'>&gt; Continúa leyendo.</a></p>",
+                "no": "<p>&#8212;No. Lo siento</p>\
+                       <p>&#8212;San Malaquías fue un arzobispo católico irlandés del siglo XII, famoso por\
+                       por su &laquo;profecía de los Papas&raquo;. Una lista de 112 lemas sobre\
+                       todos los Papas desde Celestino II hasta un supuesto Pedro el\
+                       Romano, que será el Papa durante cuyo gobierno llegará el\
+                       Apocalipsis y la ciudad de las siete colinas, Roma, será destruida.</p>\
+                       <p>&#8212;La profecía sí que la conozco. No sabía que fuera\
+                       de San Malaquías. &#8212;aclaró Paola.</p>\
+                       <p><br/></p>\
+                       <p class='transient'><a href='pintro10'>&gt; Continúa leyendo.</a></p>"
+            }
+        }
+    ),
+    pintro10: new undum.SimpleSituation(
+        "<p>El Santo Padre se detuvo y la miró fijamente.</p>\
+        <p>&#8212;¿Sabe que yo soy el Papa correspondiente al lema 112 de la profecía?</p>\
+        <p>Paola no pudo ocultar un gesto de sorpresa.</p>\
+        <p>&#8212;Pero, Santidad. Hay estudios que demuestran que la profecía es un\
+        fraude. Los lemas solo tienen precisión hasta Urbano VII, el Papa que había\
+        cuando apareció por primera vez la profecía. A partir de esa fecha, hay que\
+        hacer esfuerzos para que los lemas coincidan con el pontífice correspondiente.</p>\
+        <p>&#8212;¿Y si le dijese que no hay ningún fraude?</p>\
+        <p>Paola no supo qué contestar.</p>\
+        <p>&#8212;¿Conoce el tercer secreto de Fátima, Paola?</p>\
+        <p>&#8212;Predice el intento de asesinato que sufrió Juan Pablo II en la\
+        Plaza de San Pedro a manos de Ali Agca. En mayo de 1981.</p>\
+        <p>&#8212;Eso es lo que la Iglesia hizo saber a la opinión pública para\
+        protegerlo. &#8212;le corrigió el Santo Padre.&#8212; El manuscrito original\
+        de Santa Lucía, una de los tres niños que recibieron las visiones en Fátima,\
+        predice el Apocalipsis: un ángel con espada de fuego grita &laquo;Penitencia&raquo;\
+        tres veces, una ciudad en ruinas, con sus calles y sus siete colinas llenas de\
+        cadáveres, y el Papa y obispos subiendo esas colinas antes de morir, asesinados, en la cima.</p>\
+        <p>&#8212;¿A dónde quiere llegar, Santidad?</p>\
+        <p>&#8212;Dios me ha revelado una profecía sobre el fin de los tiempos. &#8212;confesó&#8212;\
+        Sin embargo, se la he ocultado a la Iglesia porque la mera posibilidad es,\
+        de por sí, espantosa.</p>\
+        <p>&#8212;¿Qué es lo que vio, Santidad?</p>\
+        <p><br/></p>\
+        <p class='transient'><a href='pintro11'>&gt; Continúa leyendo.</a></p>"
+    ),
+    pintro11: new undum.SimpleSituation(
+        "<p>&#8212;Una hermosa rosa congelada en el hielo. &#8212;contestó el Papa&#8212;\
+        El hielo se agrietaba y de esa grieta surgía fuego y comenzaba una guerra que los\
+        hijos de Dios emprendían contra la Iglesia y toda la humanidad. Al final, el hielo\
+        se derretía y se deslizaban lágrimas por los pétalos de la rosa.</p>\
+        <p>Paola se sentó en el borde de la silla. Tenía que reconocer que el Papa\
+        parecía estar en plenas facultades mentales y bastante lúcido.</p>\
+        <p>El Santo Padre recitó el capítulo sexto del Génesis, en el que se decía que\
+        &laquo;los hijos de Dios&raquo; gobernaron la Tierra en épocas remotas. Sus\
+        vástagos, nacidos de las mujeres, hicieron tanto daño que Dios los destruyó,\
+        a ellos y a toda la raza humana, con el Gran Diluvio, excepto a Noé y su familia.</p>\
+        Paola replicó al Papa que las visiones apocalípticas habidas a lo largo de la\
+        historia nunca detallaban el futuro con demasiada precisión, ni las habidas en\
+        la Biblio ni las que habían relatado los pastorcillos portugueses de Fátima.\
+        Al contrario, lo resumían y lo situaban sobre un escenario atemporal y unificado,\
+        plagado de símbolos que precisaban de interpretación.</p>\
+        <p>&#8212;¿Por qué ahora iba a ser diferente? &#8212;preguntó al Santo Padre.</p>\
+        <p>&#8212;Esto fue descubierto en el antiguo palacio imperial de Constantinopla,\
+        en 1929. Pertenecía a un almirante turco. &#8212;Los nudosos dedos de León XIV\
+        desplegaron sobre el escritorio una copia de un mapa medieval. Estaba fechado\
+        en 1513.&#8212; La representación del mundo que hay en ese mapa es completamente\
+        errónea. Lo que una vez se tomó como verdadero ha resultado ser falso. Si lo\
+        tomamos como un aviso, llegaremos a la conclusión de que nuestra visión del\
+        mundo tal vez resulte igual de errónea dentro de unos cuantos siglos. O\
+        de unos cuantos dias...</p>\
+        <p>&#8212;¿Unos cuantos días? &#8212;repitió Paola.&#8212; ¿Su profecía va\
+        a tener lugar dentro de unos cuantos días y no se lo ha revelado a la Iglesia?</p>\
+        <p>&#8212;Señorita Larezzo. Las implicaciones espirituales, políticas y militares\
+        serían muy desagradables. Piense lo que sucedería si la humanidad se desentendiera\
+        por completo de la tradición cristiana y la anarquía moral reinara en el mundo.</p>\
+        <p>&#8212;¿Qué pretende que haga entonces, Santidad?</p>\
+        <p>&#8212;Quiero que vayas al archivo Vaticano, encuentres el manuscrito\
+        original de Santa Lucía y se lo lleves al padre Almeida, en Brasil. El padre\
+        Almeida realizó la traducción original del manuscrito del portugués al latín. Llévale\
+        también esta carta. &#8212;le entregó un sobre lacrado con el sello papal.</p>\
+        <p><br/></p>\
+        <p class='transient'><a href='pintro12'>&gt; Ir al Capítulo 1.</a></p>"
     ),
     intro3: new undum.SimpleSituation(
         "<p>Le costaba horrores avanzar. Había estado caminando sin parar durante\
@@ -1030,11 +1245,14 @@ undum.game.init = function(character, system) {
     character.qualities.deudaalma = 0;
     //system.setCharacterText("<p>You are starting on an exciting journey.</p>");
     
+    var nompers=document.getElementById("nompersonaje");
     if (system.rnd.randomInt(1, 10) < 6) {
       undum.game.start = "w_intro";
-      //document.getElementById("nompersonaje").innerHTML("WILLIAM BAFFORD");
+      //system.writeBefore("<h1>WILLIAM BAFFORD</h1>",$("#character"));
+      $('#nompersonaje').append('WILLIAM BAFFORD');
     } else {
       undum.game.start = "p_intro";
-      //document.getElementById("nompersonaje").innerHTML("PAOLA LAREZZO");
+      //system.writeBefore("<h1>PAOLA LAREZZO</h1>",$("#character"));
+      $('#nompersonaje').append('PAOLA LAREZZO');
     }
 };
