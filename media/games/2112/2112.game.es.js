@@ -418,7 +418,7 @@ undum.game.situations = {
         &laquo;los hijos de Dios&raquo; gobernaron la Tierra en épocas remotas. Sus\
         vástagos, nacidos de las mujeres, hicieron tanto daño que Dios los destruyó,\
         a ellos y a toda la raza humana, con el Gran Diluvio, excepto a Noé y su familia.</p>\
-        Paola replicó al Papa que las visiones apocalípticas habidas a lo largo de la\
+        <p>Paola replicó al Papa que las visiones apocalípticas habidas a lo largo de la\
         historia nunca detallaban el futuro con demasiada precisión, ni las habidas en\
         la Biblia ni las que habían relatado los pastorcillos portugueses de Fátima.\
         Al contrario, lo resumían y lo situaban sobre un escenario atemporal y unificado,\
