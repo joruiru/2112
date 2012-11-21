@@ -420,7 +420,7 @@ undum.game.situations = {
         a ellos y a toda la raza humana, con el Gran Diluvio, excepto a Noé y su familia.</p>\
         Paola replicó al Papa que las visiones apocalípticas habidas a lo largo de la\
         historia nunca detallaban el futuro con demasiada precisión, ni las habidas en\
-        la Biblio ni las que habían relatado los pastorcillos portugueses de Fátima.\
+        la Biblia ni las que habían relatado los pastorcillos portugueses de Fátima.\
         Al contrario, lo resumían y lo situaban sobre un escenario atemporal y unificado,\
         plagado de símbolos que precisaban de interpretación.</p>\
         <p>&#8212;¿Por qué ahora iba a ser diferente? &#8212;preguntó al Santo Padre.</p>\
@@ -428,8 +428,8 @@ undum.game.situations = {
         en 1929. Pertenecía a un almirante turco. &#8212;Los nudosos dedos de León XIV\
         desplegaron sobre el escritorio una copia de un mapa medieval. Estaba fechado\
         en 1513.&#8212; La representación del mundo que hay en ese mapa es completamente\
-        errónea. Lo que una vez se tomó como verdadero ha resultado ser falso. Si lo\
-        tomamos como un aviso, llegaremos a la conclusión de que nuestra visión del\
+        errónea. Lo que una vez se tomó como verdadero ha resultado ser falso. Si\
+        tomamos eso como premisa, llegaremos a la conclusión de que nuestra visión del\
         mundo tal vez resulte igual de errónea dentro de unos cuantos siglos. O\
         de unos cuantos dias...</p>\
         <p>&#8212;¿Unos cuantos días? &#8212;repitió Paola.&#8212; ¿Su profecía va\
@@ -438,9 +438,9 @@ undum.game.situations = {
         serían muy desagradables. Piense lo que sucedería si la humanidad se desentendiera\
         por completo de la tradición cristiana y la anarquía moral reinara en el mundo.</p>\
         <p>&#8212;¿Qué pretende que haga entonces, Santidad?</p>\
-        <p>&#8212;Quiero que vayas al archivo Vaticano, encuentres el manuscrito\
-        original de Santa Lucía y se lo lleves al padre Almeida, en Brasil. El padre\
-        Almeida realizó la traducción original del manuscrito del portugués al latín. Llévale\
+        <p>&#8212;Quiero que vaya al archivo Vaticano, encuentre el manuscrito\
+        original de Santa Lucía y se lo lleve al padre Almeida, en Brasil. El padre\
+        Almeida realizó la traducción original del manuscrito del portugués al latín. Llévele\
         también esta carta. &#8212;le entregó un sobre lacrado con el sello papal.</p>\
         <p><br/></p>\
         <p class='transient'><a href='pintro12'>&gt; Ir al Capítulo 1.</a></p>"
