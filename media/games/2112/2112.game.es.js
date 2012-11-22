@@ -114,7 +114,7 @@ undum.game.situations = {
         adquirido un nuevo miembro para su equipo se reflejaba en el rostro de Connor&#8212;\
         Nos veremos en el Área 51.</p>\
         <p><br/></p>\
-        <p class='transient'><a href='wintro12'>&gt; Ir al Capítulo 1.</a></p>"
+        <p class='transient'><a href='wcap1h1'>&gt; Ir al Capítulo 1.</a></p>"
     ),    
     wintro6: new undum.SimpleSituation(
         "<p>&#8212;Es usted muy amable, señor Connor. &#8212;rehusó&#8212; Pero mi carrera\
@@ -180,7 +180,7 @@ undum.game.situations = {
         adquirido un nuevo miembro para su equipo se reflejaba en el rostro de Connor&#8212;\
         Bienvenido al Área 51.</p>\
         <p><br/></p>\
-        <p class='transient'><a href='wintro12'>&gt; Ir al Capítulo 1.</a></p>"
+        <p class='transient'><a href='wcap1h1'>&gt; Ir al Capítulo 1.</a></p>"
     ),    
     wintro10: new undum.SimpleSituation(
         "<p>&#8212;Son ustedes muy amables. &#8212;rehusó&#8212; Pero mi carrera\
@@ -443,7 +443,13 @@ undum.game.situations = {
         Almeida realizó la traducción original del manuscrito del portugués al latín. Llévele\
         también esta carta. &#8212;le entregó un sobre lacrado con el sello papal.</p>\
         <p><br/></p>\
-        <p class='transient'><a href='pintro12'>&gt; Ir al Capítulo 1.</a></p>"
+        <p class='transient'><a href='pcap1h1'>&gt; Ir al Capítulo 1.</a></p>"
+    ),
+    wcap1h1: new undum.SimpleSituation(
+        "<h1>Capítulo 1</h1>"
+    ),
+    pcap1h1: new undum.SimpleSituation(
+        "<h1>Capítulo 1</h1>"
     ),
     intro3: new undum.SimpleSituation(
         "<p>Le costaba horrores avanzar. Había estado caminando sin parar durante\
