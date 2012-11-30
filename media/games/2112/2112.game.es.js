@@ -446,10 +446,10 @@ undum.game.situations = {
         <p class='transient'><a href='pcap1h1'>&gt; Ir al Capítulo 1.</a></p>"
     ),
     wcap1h1: new undum.SimpleSituation(
-        "<h1>Capítulo 1</h1>"
+        "<h1>1 - El descubrimiento</h1>"
     ),
     pcap1h1: new undum.SimpleSituation(
-        "<h1>Capítulo 1</h1>"
+        "<h1>1 - El descubrimiento</h1>"
     ),
     intro3: new undum.SimpleSituation(
         "<p>Le costaba horrores avanzar. Había estado caminando sin parar durante\
