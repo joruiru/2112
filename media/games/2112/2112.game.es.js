@@ -446,7 +446,121 @@ undum.game.situations = {
         <p class='transient'><a href='pcap1h1'>&gt; Ir al Capítulo 1.</a></p>"
     ),
     wcap1h1: new undum.SimpleSituation(
-        "<h1>1 - El descubrimiento</h1>"
+        "<h1>1 - El descubrimiento</h1>\
+        <p>Ya llevaba casi tres semanas encerrado en aquella base militar, sin\
+        contacto con el exterior, pero eso a él poco le importaba, ya que su\
+        vida anterior había terminado. Sin embargo, su ánimo empezaba a resentirse\
+        pues no había logrado avances significativos en la investigación. Y,\
+        justamente, avances era lo que esperaban de él.</p>\
+        <p>En ese momento, tenía tres líneas de investigación abiertas: un códice\
+        perdido maya, unas tablillas de arcilla de Niniveh y unos curiosos discos\
+        Dropa.</p>\
+        <p>Desde que se había levantado esa mañana tenía la corazonada de que\
+        ese iba a ser el día del gran descubrimiento. ¿En qué laboratorio le\
+        estaba aguardando la gloria?</p>\
+        <p><br/></p>\
+        <p class='transient'><a href='wcap1h2'>&gt; Decidirse por estudiar el códice maya.</a></p>\
+        <p class='transient'><a href='wcap1h3'>&gt; Decidirse por estudiar las tablillas de arcilla.</a></p>\
+        <p class='transient'><a href='wcap1h4'>&gt; Decidirse por estudiar los discos de los Dropa.</a></p>"
+    ),
+    wcap1h2: new undum.SimpleSituation(
+        "<p>Echó veinticinco céntimos en la máquina para sacarse el primer café\
+        del día y se encaminó al laboratorio WI2, donde le esperaba el códice maya.</p>"
+    ),
+    wcap1h3: new undum.SimpleSituation(
+        "<p>Echó veinticinco céntimos en la máquina para sacarse el primer café\
+        del día y se encaminó al laboratorio FH4, donde le esperaban las tablillas\
+        de arcilla de Niniveh.</p>\
+        <p>Eran cuatro tablillas de arcilla en las que se habían grabado pictogramas\
+        que representaban cabezas, pies, manos, números y trillos. Sin ningún tipo\
+        de duda, se trataba de escritura cuneiforme. De eso estaba seguro desde el\
+        primer momento en el que vio las tablillas.</p>\
+        <p>Según le habían contado, las tablillas fueron encontradas en los años\
+        cincuenta, en las ruinas de la antigua ciudad sumeria de Niniveh.</p>\
+        <p>Sumeria fue una región histórica de Oriente Medio que formaba la parte\
+        sur de la antigua Mesopotamia, entre las planicies aluviales de los ríos\
+        Tigris y Eúfrates. La civilización sumeria estaba considerada como la primera\
+        y más antigua civilización del mundo. La procedencia de sus habitantes,\
+        los sumerios, era incierta.</p>\
+        <p>Para cualquier arqueólogo, y esta nueva oportunidad que le habían brindado\
+        le había devuelto la ilusión de serlo, la cultura sumeria era el Santo Grial\
+        de la profesión.</p>\
+        <p><br/></p>\
+        <p class='transient'><a href='wcap1h5'>&gt; Continúa leyendo.</a></p>"
+    ),
+    wcap1h4: new undum.SimpleSituation(
+        "<p>Echó veinticinco céntimos en la máquina para sacarse el primer café\
+        del día y se encaminó al laboratorio OR3, donde le esperaban los discos\
+        de la tribu de los Dropa.</p>"
+    ),
+    wcap1h5: new undum.SimpleSituation(
+        "<p>Los sumerios eran recordados debido a sus muchas invenciones, entre las\
+        que se encontraban la rueda y el torno alfarero. Su sistema de escritura\
+        cuneiforme era el primer sistema de escritura del que se tenía evidencia,\
+        adelantándose a los jeroglíficos egipcios, y estaban entre los\
+        primeros astrónomos, poseyendo la primera visión heliocéntrica de la que\
+        se tenía conocimiento.</p>\
+        <p>Desarrollaron también conceptos matemáticos usando sistemas numéricos\
+        basados en 6 y 10. A través de ese sistema, inventaron el reloj con 60\
+        segundos, 60 minutos y 12 horas, además del calendario de 12 meses que\
+        se usaba en la actualidad. También construyeron sistemas legales y administrativos\
+        con cortes judiciales, prisiones y las primeras ciudades estado. La invención\
+        de la escritura posibilitó a los sumerios el almacenamiento del conocimiento\
+        y la posibilidad de transferirlo a otros, lo que llevó a la creación de las\
+        escuelas, a la educación y oficialización de la matemática, religión, burocracia,\
+        divisón de trabajo y sistemas de clases sociales.</p>\
+        <p>Los sumerios también inventaron la carroza y, posiblemente, las formaciones\
+        militares. Inventaron la cerveza.</p>\
+        <p>Pero lo más importante de todo era, y en esto estaba de acuerdo\
+        la comunidad científica, que los sumerios fueron los rimeros en tratar plantas\
+        y domesticar y criar animales a gran escala.</p>\
+        <p>Se sentó en su escritorio y encendió el ordenador. Mientras esperaba\
+        a que terminase de arrancar, se detuvo a pensar sobre cuál debía ser el\
+        primer paso que tenía que dar en su, esperaba, gran día. ¿Qué era mejor\
+        para salir del bloqueo en el que se encontraba? ¿Repasar todas sus notas\
+        hasta entonces o descartar lo que había hecho hasta el momento y volver\
+        a investigar las tablillas desde cero?</p>\
+        <p><br/></p>\
+        <p class='transient'><a href='wcap1h6'>&gt; Repasar las notas.</a></p>\
+        <p class='transient'><a href='wcap1h7'>&gt; Volver a las tablillas.</a></p>"
+    ),
+    wcap1h6: new undum.Situation(
+        {
+            enter: function(character, system, from) {
+                system.write("<p>Decidió que no debía tirar todo el trabajo que había\
+                realizado a la basura. Había estudiado tan a fondo las tablillas\
+                sumerias que, sin duda, la solución al bloqueo en el que se encontraba\
+                debía estar en sus notas. ¡Tenía que estar ahí!</p>");
+                system.write("<p>Había traducido las tablillas siguiendo las investigaciones\
+                del profesor Zetcharia Sitchin, el mayor experto mundial en la escritura\
+                cuneiforme sumeria, pero algo se le escapaba.</p>");
+                system.write("<p>Las tablillas 1 y 4 hablaban de la sucesión de monarcar sumerios\
+                desde los primeros tiempos hasta Hammurabi, el sexto rey de Babilonia, fallecido\
+                en el año 1750 a.C. Aunque era el que hacía 31 en la lista y vigésimo segundo\
+                rey de la primera dinastía Kish, el primer monarca\
+                del que se tiene evidencia histórica era Mebaragesi, que vivió en el siglo\
+                XXVII a.C. y reinó, según la tablilla, durante 900 años.También de su hijo,\
+                Aga, que reinó durante 625 años, se tiene comprobación histórica. La\
+                duración de todos los reinados de esta dinastía eran imposibles, por\
+                lo que había llegado a la conclusión de que se debía tratar de\
+                figuras mitológicas, con algún trasfondo histórico.</p>");
+                system.write("<p>La segunda tablilla contenía cartas de negocios y\
+                transacciones, recibos, leyes, himnos y alguna plegaria.</p>");
+                system.write("<p>La tablilla 3 era la que le había sido imposible\
+                descifrar, por más que lo intentaba. Parecía un compendio científico\
+                sobre matemáticas, pero no le encontraba sentido.</p>");
+                if (system.rnd.randomInt(1, 10) < 6) {
+	                system.write("<p>Repasó y repasó sus notas, contrastándolas con\
+	                los libros de Sitchin, pero le fue imposible avanzar. Otro día\
+	                perdido.</p>");
+	                system.write("<p>Apagó el ordenador y, cabizbajo, se dirigió\
+	                a su habitación. Empezaba a perder el ánimo.</p>");
+	                system.write("<p><br/></p>");
+                    system.write("<p class='transient'><a href='wcap1h8'>&gt; Continúa leyendo.</a></p>");
+                } else {
+                }
+            }
+        }
     ),
     pcap1h1: new undum.SimpleSituation(
         "<h1>1 - El descubrimiento</h1>"
