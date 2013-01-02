@@ -534,13 +534,13 @@ undum.game.situations = {
                 system.write("<p>Había traducido las tablillas siguiendo las investigaciones\
                 del profesor Zetcharia Sitchin, el mayor experto mundial en la escritura\
                 cuneiforme sumeria, pero algo se le escapaba.</p>");
-                system.write("<p>Las tablillas 1 y 4 hablaban de la sucesión de monarcas sumerios\
+                system.write("<p>Las tablillas 1 y 4 hablaban de la sucesión de monarcar sumerios\
                 desde los primeros tiempos hasta Hammurabi, el sexto rey de Babilonia, fallecido\
                 en el año 1750 a.C. Aunque era el que hacía 31 en la lista y vigésimo segundo\
                 rey de la primera dinastía Kish, el primer monarca\
-                del que se tenía evidencia histórica era Mebaragesi, que vivió en el siglo\
-                XXVII a.C. y reinó, según la tablilla, durante 900 años. También de su hijo,\
-                Aga, que reinó durante 625 años, se tenía comprobación histórica. La\
+                del que se tiene evidencia histórica era Mebaragesi, que vivió en el siglo\
+                XXVII a.C. y reinó, según la tablilla, durante 900 años.También de su hijo,\
+                Aga, que reinó durante 625 años, se tiene comprobación histórica. La\
                 duración de todos los reinados de esta dinastía eran imposibles, por\
                 lo que había llegado a la conclusión de que se debía tratar de\
                 figuras mitológicas, con algún trasfondo histórico.</p>");
@@ -552,53 +552,11 @@ undum.game.situations = {
                 system.write("<p>Repasó y repasó sus notas, contrastándolas con\
                 los libros de Sitchin, pero le fue imposible avanzar. Otro día\
                 perdido.</p>");
-                system.write("<p><br/></p>");
-                system.write("<p class='transient'><a href='wcap1h8'>&gt; Continúa leyendo.</a></p>");
-            }
-        }
-    ),
-    wcap1h7: new undum.Situation(
-        {
-            enter: function(character, system, from) {
-                system.write("<p>Descartó todas sus notas y abrió los modelos en 3D\
-                de las tablillas en el ordenador. ¡Había algo que se le estaba\
-                escapando! ¡Tenía que estar ahí!</p>");
-                system.write("<p>Repasó los métodos del profesor Zetcharia Sitchin,\
-                el mayor experto mundial en la escritura cuneiforme sumeria, y se\
-                puso manos a la obra minuciosamente glifo por glifo.</p>");
-                system.write("<p>Comenzó por las más fáciles. La 1 y 4 contaban\
-                la sucesión de monarcas sumerios desde los primeros tiempos hasta\
-                Hammurabi, el sexto rey de Babilonia, fallecido en el año 1750 a.C.\
-                Aunque era el que hacía 31 en la lista y vigésimo segundo\
-                rey de la primera dinastía Kish, el primer monarca\
-                del que se tenía evidencia histórica era Mebaragesi, que vivió en el siglo\
-                XXVII a.C. y reinó, según la tablilla, durante 900 años. También de su hijo,\
-                Aga, que reinó durante 625 años, se tenía comprobación histórica. La\
-                duración de todos los reinados de esta dinastía eran imposibles, por\
-                lo que había llegado a la conclusión de que se debía tratar de\
-                figuras mitológicas, con algún trasfondo histórico.</p>");
-                system.write("<p>La segunda tablilla contenía cartas de negocios y\
-                transacciones, recibos, leyes, himnos y alguna plegaria.</p>");
-                system.write("<p>Era ya muy tarde cuando desistió de encontrar\
-                algo útil en la tablilla 3. Le era imposible de descifrar, por más\
-                que lo intentaba. Tenía la impresión de que se trataba de un compendio\
-                sobre matemáticas, pero no le encontraba sentido a la sucesión de glifos.</p>");
-                system.write("<p>Repasó y repasó su trabajo, contrastándo con\
-                los libros de Sitchin, pero le fue imposible avanzar. Otro día\
-                perdido.</p>");
-                system.write("<p><br/></p>");
-                system.write("<p class='transient'><a href='wcap1h8'>&gt; Continúa leyendo.</a></p>");
-            }
-        }
-    ),    
-    wcap1h8: new undum.Situation(
-        {
-            enter: function(character, system, from) {
                 if (system.rnd.randomInt(1, 10) < 6) {
 	                system.write("<p>Apagó el ordenador y, cabizbajo, se dirigió\
 	                a su habitación. Empezaba a perder el ánimo.</p>");
 	                system.write("<p><br/></p>");
-                    system.write("<p class='transient'><a href='wcap1h9'>&gt; Continúa leyendo.</a></p>");
+                    system.write("<p class='transient'><a href='wcap1h8'>&gt; Continúa leyendo.</a></p>");
                 } else {
 	                system.write("<p>Apagó el ordenador y, cabizbajo, se dirigió\
 	                a la salida. Empezaba a perder el ánimo. Apagó las luces.</p>");
@@ -607,12 +565,12 @@ undum.game.situations = {
                     ver algo extraño en la tablilla, en uno de los bordes. Se acercó\
                     a ella para comprobarlo mejor.</p>");
 	                system.write("<p><br/></p>");
-                    system.write("<p class='transient'><a href='wcap1h10'>&gt; Continúa leyendo.</a></p>");
+                    system.write("<p class='transient'><a href='wcap1h9'>&gt; Continúa leyendo.</a></p>");
                 }
             }
         }
-    ),    
-    wcap1h9: new undum.SimpleSituation(
+    ),
+    wcap1h8: new undum.SimpleSituation(
         "<p>No había podido pegar ojo en toda la noche tras el nuevo fracaso del\
         día anterior con las tablillas. No obstante, se había levantado con un\
         poco más de ánimo con el que se había acostado, aunque no demasiado.</p>\
@@ -623,7 +581,7 @@ undum.game.situations = {
         <p class='transient'><a href='wcap1h3'>&gt; Decidirse por estudiar las tablillas de arcilla.</a></p>\
         <p class='transient'><a href='wcap1h4'>&gt; Decidirse por estudiar los discos de los Dropa.</a></p>"
     ),
-    wcap1h10: new undum.SimpleSituation(
+    wcap1h9: new undum.SimpleSituation(
         "<p>&laquo;¡Sí!¡Ahí hay algo!&raquo;. La luz de la luna que entraba por\
         la ventana iluminaba tenuemente uno de los laterales de la tablilla,\
         dejando entrever un leve brillo en algunas zonas.</p>\
@@ -634,25 +592,11 @@ undum.game.situations = {
         que había en la tablilla.</p>\
         <p>Cogió una lámpara de luz negra y la acercó a la tablilla. El, ahora,\
         brillo más potente reveló algo que lo dejó petrificado por unos momentos.</p>\
-        <p>El reflejo de la luz mostraba un nuevo glifo, hasta entonces invisible, que le\
+        <p>Ante él se mostraba un nuevo glifo, hasta entonces invisible, que le\
         resultaba vagamente familiar.</p>\
         <p>&#8212;¿Dónde he visto esto antes?</p>\
         <p><br/></p>\
-        <p class='transient'><a href='wcap1h11'>&gt; Continúa leyendo.</a></p>"
-    ),
-    wcap1h11: new undum.SimpleSituation(
-        "<p>Lleno de entusiamo e impaciencia encendió de nuevo el ordenador del\
-        laboratorio. El arranque se le hizo eterno.</p>\
-        <p>&laquo;¡Tiene que estar por aquí! ¡Tiene que estar por aquí!&raquo;.\
-        A una velocidad endiablada, buscó entre cientos de imágenes hasta que\
-        por fin encontró lo que buscaba.</p>\
-        <p>&#8212;¡SI!¡SI!¡SI! &#8212; Salió corriendo del laboratorio, gritando,\
-        con la intención de despertar a todo el Área 51.</p>\
-        <p>La pantalla del ordenador mostraba el glifo que se correspondía con la\
-        constelación de Orión, grabado en una columna de la cámara del rey de la\
-        Gran Pirámide de Keops.</p>\
-        <p><br/></p>\
-        <p class='transient'><a href='wcap2h1'>&gt; Ir al capítulo 2.</a></p>"
+        <p class='transient'><a href='wcap1h10'>&gt; Continúa leyendo.</a></p>"
     ),
     pcap1h1: new undum.SimpleSituation(
         "<h1>1 - El descubrimiento</h1>"
