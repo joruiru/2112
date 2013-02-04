@@ -465,7 +465,30 @@ undum.game.situations = {
     ),
     wcap1h2: new undum.SimpleSituation(
         "<p>Echó veinticinco céntimos en la máquina para sacarse el primer café\
-        del día y se encaminó al laboratorio WI2, donde le esperaba el códice maya.</p>"
+        del día y se encaminó al laboratorio WI2, donde le esperaba el códice maya.</p>\
+        <p>Se trataba de un libro escrito por los mayas mucho antes de la conquista\
+        española del continente americano. Como en toda la escritura maya, estaba\
+        conformado por jeroglíficos.</p>\
+        <p>Tres códices mayas y una parte de un cuarto habían sobrevivido hasta\
+        nuestros tiempos. Tres de ellos llevan el nombre según el lugar de su custodia\
+        (Dresde, Madrid, también conocido como códice Trocortesiano, y París, o códice\
+        Peresiano). El cuarto, lleva el lugar donde se expuso por primera vez, y se\
+        conoce como Fragmento de Grolier.</p>\
+        <p>Aunque habían llegado cuatro a nuestros días, eran muchos más los libros\
+        mayas escritos en tiempo de la conquista de Yucatán en el siglo XVI, pero\
+        casi todos fueron destruidos por conquistadores y sacerdotes. En particular,\
+        los encontrados en la Península de Yucatán fueron destruidos por órdenes\
+        de Fray Diego de Landa en julio de 1562.</p>\
+        <p>Pero el que tenía allí delante no era ninguno de los conocidos. Era mucho\
+        más antiguo que el de Dresde, que estaba datado del siglo XI o XII. Sin duda\
+        era el libro más antiguo escrito en las Américas, de unos trescientos o\
+        cuatrocioentos años más de antigüedad que el códice de Dresde.</p>\
+        <p>Según le habían contado, el códice había sido salvado de la destrucción\
+        por Alonso de Zorita, alrededor de 1540, dejando escrito que narraba la historia\
+        de los mayas durante más de ochocientos años y que le fue interpretado por\
+        indígenas muy ancianos.</p>\
+        <p><br/></p>\
+        <p class='transient'><a href='wcap1h19'>&gt; Continúa leyendo.</a></p>"
     ),
     wcap1h3: new undum.SimpleSituation(
         "<p>Echó veinticinco céntimos en la máquina para sacarse el primer café\
@@ -491,7 +514,16 @@ undum.game.situations = {
     wcap1h4: new undum.SimpleSituation(
         "<p>Echó veinticinco céntimos en la máquina para sacarse el primer café\
         del día y se encaminó al laboratorio OR3, donde le esperaban los discos\
-        de la tribu de los Dropa.</p>"
+        de la tribu de los Dropa.</p>\
+        <p>Se trataba de unos disco de piedra de 22.7 centímetros de diámetro y 2\
+        centímetros de grosor. Tenían un agujero justo en el centro de unos 2 centímetros\
+        de diámetro. De ahí, surgía un surco fino en espiral hacia el exterior del\
+        disco</p>\
+        <p>Habían sido encontrados en las montañas Bayan Kara-Ula, una de las regiones\
+        más aisladas del planeta, entre China y el Tibet, en 1938, y había\
+        sido datado de entre 10.000 y 12.000 años de antigüedad.</p>\
+        <p><br/></p>\
+        <p class='transient'><a href='wcap1h12'>&gt; Continúa leyendo.</a></p>"
     ),
     wcap1h5: new undum.SimpleSituation(
         "<p>Los sumerios eran recordados debido a sus muchas invenciones, entre las\
@@ -624,7 +656,7 @@ undum.game.situations = {
         <p class='transient'><a href='wcap1h4'>&gt; Decidirse por estudiar los discos de los Dropa.</a></p>"
     ),
     wcap1h10: new undum.SimpleSituation(
-        "<p>&laquo;¡Sí!¡Ahí hay algo!&raquo;. La luz de la luna que entraba por\
+        "<p>&laquo;¡Sí! ¡Ahí hay algo!&raquo;. La luz de la luna que entraba por\
         la ventana iluminaba tenuemente uno de los laterales de la tablilla,\
         dejando entrever un leve brillo en algunas zonas.</p>\
         <p>&laquo;¿Cómo se me había pasado hasta ahora?&raquo;. Miró hacia la\
@@ -646,11 +678,182 @@ undum.game.situations = {
         <p>&laquo;¡Tiene que estar por aquí! ¡Tiene que estar por aquí!&raquo;.\
         A una velocidad endiablada, buscó entre cientos de imágenes hasta que\
         por fin encontró lo que buscaba.</p>\
-        <p>&#8212;¡SI!¡SI!¡SI! &#8212; Salió corriendo del laboratorio, gritando,\
+        <p>&#8212;¡SI! ¡SI! ¡SI! &#8212; Salió corriendo del laboratorio, gritando,\
         con la intención de despertar a todo el Área 51.</p>\
         <p>La pantalla del ordenador mostraba el glifo que se correspondía con la\
         constelación de Orión, grabado en una columna de la cámara del rey de la\
         Gran Pirámide de Keops.</p>\
+        <p><br/></p>\
+        <p class='transient'><a href='wcap2h1'>&gt; Ir al capítulo 2.</a></p>"
+    ),
+    wcap1h12: new undum.SimpleSituation(
+        "<p>Pero lo verdaderamente interesante de los discos era que los surcos en\
+        espiral no eran simples dibujos, sino más bien una escritura increíblemente\
+        antigua grabada del algún modo desconocido y de un tamaño casi microscópico.</p>\
+        <p>Eso hacía que estuviese ante la escritura conocida más antigua del mundo.</p>\
+        <p>¿Cómo pudo un pueblo primitivo realizar unos discos tan exactos? ¿Cómo\
+        labraron una escritura casi microscópica en la piedra? ¿Quiénes eran y para\
+        qué fin realizaron esos discos?</p>\
+        <p>¡Tenía que descifrar aquella escritura!</p>\
+        <p>Se sentó en su escritorio y encendió el ordenador. Mientras esperaba\
+        a que terminase de arrancar, se detuvo a pensar sobre cuál debía ser el\
+        primer paso que tenía que dar en su, esperaba, gran día. ¿Qué era mejor\
+        para salir del bloqueo en el que se encontraba? ¿Repasar todas sus notas\
+        hasta entonces o descartar lo que había hecho hasta el momento y volver\
+        a investigar los discos desde cero?</p>\
+        <p><br/></p>\
+        <p class='transient'><a href='wcap1h13'>&gt; Repasar las notas.</a></p>\
+        <p class='transient'><a href='wcap1h14'>&gt; Volver a los discos.</a></p>"
+    ),
+    wcap1h13: new undum.Situation(
+        {
+            enter: function(character, system, from) {
+                system.write("<p>Decidió que no debía tirar todo el trabajo que había\
+                realizado a la basura. Había estudiado tan a fondo esos discos\
+                que, sin duda, la solución al bloqueo en el que se encontraba\
+                debía estar en sus notas. ¡Tenía que estar ahí!</p>");
+                system.write("<p>Había transcrito en papel todos los símbolos que\
+                había en los discos. Incluso había averiguado el orden en el que\
+                colocar buena parte de los discos al hacer la transcripción,\
+                pero algo se le escapaba.</p>");
+                system.write("<p>Los discos contaban la historia de cómo los Dropa\
+                buscaron refugio en las cuevas de las montañas y, a pesar de que\
+                sus intenciones eran pacíficas, no fueron comprendidos por los miembros\
+                de la tribu Ham, los cuales, ocupaban las cuevas vecinas y, pensando\
+                que eran enemigos que querían apoderarse de su territorio, persiguieron\
+                y mataron a algunos de los Dropa. Cuando, finalmente, los Ham\
+                comprendieron el lenguaje por señas de los Dropa, los admitieron\
+                en su territorio al saber que los recién llegados tenían intenciones\
+                pacíficas.</p>");
+                system.write("<p>Pero, la traducción parcial que había hecho dejaba\
+                muchos interrogantes por responder: ¿Por qué llamaban a los Dropa\
+                \"recien llegados\"? ¿Por qué dos tribus de la misma región tenían\
+                que hablarse por señas? ¿Por qué la historia contada en los discos\
+                especificaba que fueron los Ham los que no entendían a los Dropa y\
+                no al revés, o como sería más normal, que no se entendían ninguna de\
+                las dos tribus?</p>");
+                system.write("<p>Eran los primeros discos y los últimos los que no\
+                había conseguido traducir. Había símbolos y dibujos a los que no\
+                encontraba sentido.</p>");
+                system.write("<p>Repasó y repasó sus notas, contrastándolas una\
+                y otra vez, pero le fue imposible avanzar. Otro día perdido.</p>");
+                system.write("<p><br/></p>");
+                system.write("<p class='transient'><a href='wcap1h15'>&gt; Continúa leyendo.</a></p>");
+            }
+        }
+    ),
+    wcap1h14: new undum.Situation(
+        {
+            enter: function(character, system, from) {
+                system.write("<p>Descartó todas sus notas y abrió los modelos en 3D\
+                de los discos en el ordenador. ¡Había algo que se le estaba\
+                escapando! ¡Tenía que estar ahí!</p>");
+                system.write("<p>Repasó los métodos utilizados y se\
+                puso manos a la obra minuciosamente glifo por glifo.</p>");
+                system.write("<p>Despejó su mente y volvió a reordenar las transcripciones\
+                que había hecho de los discos.</p>");
+                system.write("<p>Comenzó por la parte que ya sabía, la de los discos\
+                centrales, o al menos él suponía que eran los que conformaban la parte\
+                central del relato.</p>");
+                system.write("<p>Los discos contaban la historia de cómo los Dropa\
+                buscaron refugio en las cuevas de las montañas y, a pesar de que\
+                sus intenciones eran pacíficas, no fueron comprendidos por los miembros\
+                de la tribu Ham, los cuales, ocupaban las cuevas vecinas y, pensando\
+                que eran enemigos que querían apoderarse de su territorio, persiguieron\
+                y mataron a algunos de los Dropa. Cuando, finalmente, los Ham\
+                comprendieron el lenguaje por señas de los Dropa, los admitieron\
+                en su territorio al saber que los recién llegados tenían intenciones\
+                pacíficas.</p>");
+                system.write("<p>Pero, la traducción parcial que había hecho dejaba\
+                muchos interrogantes por responder: ¿Por qué llamaban a los Dropa\
+                \"recien llegados\"? ¿Por qué dos tribus de la misma región tenían\
+                que hablarse por señas? ¿Por qué la historia contada en los discos\
+                especificaba que fueron los Ham los que no entendían a los Dropa y\
+                no al revés, o como sería más normal, que no se entendían ninguna de\
+                las dos tribus?</p>");
+                system.write("<p>Eran los primeros discos y los últimos los que no\
+                había conseguido traducir. Había símbolos y dibujos a los que no\
+                encontraba sentido.</p>");
+                system.write("<p>Era ya muy tarde cuando desistió de encontrar\
+                algo útil en el resto de discos. Le era imposible de descifrar, por más\
+                que lo intentaba, lo que significaban algunos símbolos y dibujos clave.\
+                Tenía la impresión de que debían contar los orígenes de la tribu de\
+                los Dropa, pero no le encontraba sentido a la sucesión de glifos.</p>");
+                system.write("<p>Repasó y repasó su trabajo, contrastándo con\
+                los libros de Sitchin, pero le fue imposible avanzar. Otro día\
+                perdido.</p>");
+                system.write("<p><br/></p>");
+                system.write("<p class='transient'><a href='wcap1h15'>&gt; Continúa leyendo.</a></p>");
+            }
+        }
+    ),    
+    wcap1h15: new undum.Situation(
+        {
+            enter: function(character, system, from) {
+                if (system.rnd.randomInt(1, 10) < 6) {
+	                system.write("<p>Apagó el ordenador y, cabizbajo, se dirigió\
+	                a su habitación. Empezaba a perder el ánimo.</p>");
+	                system.write("<p><br/></p>");
+                    system.write("<p class='transient'><a href='wcap1h16'>&gt; Continúa leyendo.</a></p>");
+                } else {
+	                system.write("<p>Empezaba a perder el ánimo. Cabizbajo, se\
+	                levantó para dejar el disco que tenía en la mano y apagar el\
+	                ordenador y las luces.</p>");
+	                system.write("<p>Antes de salir echó un vistazo de reojo a la tablilla tres.</p>");
+                    system.write("<p>&laquo;¿Qué era eso?&raquo;. Le había parecido\
+                    ver algo extraño en la pantalla del ordenador al pasar junto\
+                    a él. Se acercó a ella para comprobarlo mejor.</p>");
+	                system.write("<p><br/></p>");
+                    system.write("<p class='transient'><a href='wcap1h17'>&gt; Continúa leyendo.</a></p>");
+                }
+            }
+        }
+    ),    
+    wcap1h16: new undum.SimpleSituation(
+        "<p>No había podido pegar ojo en toda la noche tras el nuevo fracaso del\
+        día anterior con los discos. No obstante, se había levantado con un\
+        poco más de ánimo con el que se había acostado, aunque no demasiado.</p>\
+        <p>De nuevo, al llegar al laboratorio, se hizo la misma pregunta de todos\
+        los días. ¿Por dónde empezar?</p>\
+        <p><br/></p>\
+        <p class='transient'><a href='wcap1h2'>&gt; Decidirse por estudiar el códice maya.</a></p>\
+        <p class='transient'><a href='wcap1h3'>&gt; Decidirse por estudiar las tablillas de arcilla.</a></p>\
+        <p class='transient'><a href='wcap1h4'>&gt; Decidirse por estudiar los discos de los Dropa.</a></p>"
+    ),
+    wcap1h17: new undum.SimpleSituation(
+        "<p>&laquo;¡Sí! ¡Algo extraño pasaba al acercar el disco al monitor del\
+        ordenador!&raquo;. Acercaba el disco que portaba en la mano al monitor\
+        y se producían interferencias en la misma.</p>\
+        <p>&laquo;¿Cómo se me había pasado hasta ahora?&raquo;. Eso significaba\
+        que el disco tenía restos de carga electromagnética.</p>\
+        <p>Corrió atolondradamente hasta el oscilógrafo que había en la otra punta\
+        del laboratorio. Realizó mediciones sobre el disco. Miró asombrado la\
+        pantalla del aparato.</p>\
+        <p>Hizo mediciones en otros discos. Los resultados fueron igualmente\
+        sorprendentes.</p>\
+        <p>Los resultados que acababa de obtener sólo podían significar una cosa:\
+        que los discos habían funcionado en algún momento como conductores eléctricos.</p>\
+        <p><br/></p>\
+        <p class='transient'><a href='wcap1h18'>&gt; Continúa leyendo.</a></p>"
+    ),
+    wcap1h18: new undum.SimpleSituation(
+        "<p>Lleno de entusiamo e impaciencia colocó los discos que el oscilógrafo\
+        decía que habían estado cargados eléctricamente sobre una barra de metal,\
+        pasándola por el agujero del centro de los discos.</p>\
+        <p>La barra de metal estaba conectada a un generador eléctrico. Puso, nerviso,\
+        la mano sobre el potenciómetro y empezó a girarlo poco a poco.</p>\
+        <p>Conforme la potencia iba aumentaba, los discos comenzaron a vibrar. Dio\
+        un poco más de potencia y los discos comenzaron a girar. Unos giraban en\
+        la dirección de las agujas del reloj y otros en contra.</p>\
+        <p>&#8212;¡SI! ¡SI! ¡SI! &#8212; ¡Lo vio! ¡No podía creer lo que estaba viendo!\
+        Era la explicación de los símbolos que no había podido descifrar en los\
+        discos. Estaba ante la piedra de Rosetta de Dropa.<p>\
+        <p>Salió corriendo del laboratorio, gritando, con la intención de despertar\
+        a todo el Área 51.</p>\
+        <p>A la par que giraban los discos en los bordes se combinaban muescas\
+        y grabados, que vistas por separado no parecían más que daños ocasionados\
+        por el paso del tiempo. Se podían ver unos pequeños hombres amarillos con\
+        largas y anchas cabezas. Eran calvos y tenían los ojos grandes y azulados.</p>\
         <p><br/></p>\
         <p class='transient'><a href='wcap2h1'>&gt; Ir al capítulo 2.</a></p>"
     ),
