@@ -857,6 +857,105 @@ undum.game.situations = {
         <p><br/></p>\
         <p class='transient'><a href='wcap2h1'>&gt; Ir al capítulo 2.</a></p>"
     ),
+    wcap1h19: new undum.SimpleSituation(
+        "<p>El códice constaba de 47 páginas, con escritura en ambas caras. Tenía\
+        una longitud total de 4.23 metros. Originalmente había sido doblado en\
+        forma de acordeón.</p>\
+        <p>Estaba hecho de papel amate, corteza de jonote (ficus) que había sido\
+        aplastada y cubierta de una pasta de cal. Cada una de las hojas medía 20.5\
+        centímetros de altura y 9 de anchura. La mayoría estaban divididas horizontalmente\
+        en tres partes por delgadas líneas rojas. Cuatro de las páginas de la parte\
+        del dorso estaban en blanco, posiblemente debido al paso del tiempo.</p>\
+        <p>Se sentó en su escritorio y encendió el ordenador. Mientras esperaba\
+        a que terminase de arrancar, se detuvo a pensar sobre cuál debía ser el\
+        primer paso que tenía que dar en su, esperaba, gran día. ¿Qué era mejor\
+        para salir del bloqueo en el que se encontraba? ¿Repasar todas sus notas\
+        hasta entonces o descartar lo que había hecho hasta el momento y volver\
+        a investigar todo el códice desde cero?</p>\
+        <p><br/></p>\
+        <p class='transient'><a href='wcap1h20'>&gt; Repasar las notas.</a></p>\
+        <p class='transient'><a href='wcap1h21'>&gt; Volver al códice.</a></p>"
+    ),
+    wcap1h20: new undum.SimpleSituation(
+        "<p>Decidió que no debía tirar todo el trabajo que había\
+        realizado a la basura. Había estudiado tan a fondo esas páginas\
+        que, sin duda, la solución al bloqueo en el que se encontraba\
+        debía estar en sus notas. ¡Tenía que estar ahí!</p>\
+        <p>El códice había sido escrito por seis escribas diferentes. Cada uno\
+        tenía su propio tema, estilo de escritura y glifos diferentes. Las imágenes\
+        del códice habían sido pintadas con una claridad extraordinaria,\
+        utilizando pinceles muy finos.</p>\
+        <p>Había conseguido decodificar buena parte de los símbolos que\
+        había en el códice. La mayoría se refería a las figuras adjuntas y\
+        comentaban sobre las imágenes en frases cortas. También había números,\
+        formados por tres símbolos: barras (cinco), puntos (uno) y conchas\
+        estilizadas (cero).</p>\
+        <p>En las páginas del códice se hablaba de las deidades, de enfermedades,\
+        curas y peligros al nacer y de los ciclos de Venus. Había tablas de\
+        eclipses solares y lunares y una misteriosa tabla de multiplicar del\
+        número 78. No había conseguido averiguar la importancia de este número.</p>\
+        <p>También se hablaba de los desastres que podían ocurrir al final de un\
+        ciclo de 13 k'atun (un k'atun equivalía a 20 años) y de los números serpiente,\
+        que indicaban eventos míticos en períodos de unos 30.000 años.</p>\
+        <p>Pero, la traducción parcial que había hecho dejaba\
+        muchos interrogantes por responder: ¿Por qué llamaban a los Dropa\
+        \"recien llegados\"? ¿Por qué dos tribus de la misma región tenían\
+        que hablarse por señas? ¿Por qué la historia contada en los discos\
+        especificaba que fueron los Ham los que no entendían a los Dropa y\
+        no al revés, o como sería más normal, que no se entendían ninguna de\
+        las dos tribus?</p>\
+        <p>Eran los primeros discos y los últimos los que no\
+        había conseguido traducir. Había símbolos y dibujos a los que no\
+        encontraba sentido.</p>\
+        <p>Repasó y repasó sus notas, contrastándolas una\
+        <p><br/></p>\
+        <p class='transient'><a href='wcap1h15'>&gt; Continúa leyendo.</a></p>"
+    ),
+    wcap1h21: new undum.Situation(
+        {
+            enter: function(character, system, from) {
+                system.write("<p>Descartó todas sus notas y abrió los modelos en 3D\
+                de los discos en el ordenador. ¡Había algo que se le estaba\
+                escapando! ¡Tenía que estar ahí!</p>");
+                system.write("<p>Repasó los métodos utilizados y se\
+                puso manos a la obra minuciosamente glifo por glifo.</p>");
+                system.write("<p>Despejó su mente y volvió a reordenar las transcripciones\
+                que había hecho de los discos.</p>");
+                system.write("<p>Comenzó por la parte que ya sabía, la de los discos\
+                centrales, o al menos él suponía que eran los que conformaban la parte\
+                central del relato.</p>");
+                system.write("<p>Los discos contaban la historia de cómo los Dropa\
+                buscaron refugio en las cuevas de las montañas y, a pesar de que\
+                sus intenciones eran pacíficas, no fueron comprendidos por los miembros\
+                de la tribu Ham, los cuales, ocupaban las cuevas vecinas y, pensando\
+                que eran enemigos que querían apoderarse de su territorio, persiguieron\
+                y mataron a algunos de los Dropa. Cuando, finalmente, los Ham\
+                comprendieron el lenguaje por señas de los Dropa, los admitieron\
+                en su territorio al saber que los recién llegados tenían intenciones\
+                pacíficas.</p>");
+                system.write("<p>Pero, la traducción parcial que había hecho dejaba\
+                muchos interrogantes por responder: ¿Por qué llamaban a los Dropa\
+                \"recien llegados\"? ¿Por qué dos tribus de la misma región tenían\
+                que hablarse por señas? ¿Por qué la historia contada en los discos\
+                especificaba que fueron los Ham los que no entendían a los Dropa y\
+                no al revés, o como sería más normal, que no se entendían ninguna de\
+                las dos tribus?</p>");
+                system.write("<p>Eran los primeros discos y los últimos los que no\
+                había conseguido traducir. Había símbolos y dibujos a los que no\
+                encontraba sentido.</p>");
+                system.write("<p>Era ya muy tarde cuando desistió de encontrar\
+                algo útil en el resto de discos. Le era imposible de descifrar, por más\
+                que lo intentaba, lo que significaban algunos símbolos y dibujos clave.\
+                Tenía la impresión de que debían contar los orígenes de la tribu de\
+                los Dropa, pero no le encontraba sentido a la sucesión de glifos.</p>");
+                system.write("<p>Repasó y repasó su trabajo, contrastándo con\
+                los libros de Sitchin, pero le fue imposible avanzar. Otro día\
+                perdido.</p>");
+                system.write("<p><br/></p>");
+                system.write("<p class='transient'><a href='wcap1h15'>&gt; Continúa leyendo.</a></p>");
+            }
+        }
+    ),    
     pcap1h1: new undum.SimpleSituation(
         "<h1>1 - El descubrimiento</h1>"
     ),
