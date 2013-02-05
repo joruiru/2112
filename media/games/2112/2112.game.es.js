@@ -446,7 +446,7 @@ undum.game.situations = {
         <p class='transient'><a href='pcap1h1'>&gt; Ir al Capítulo 1.</a></p>"
     ),
     wcap1h1: new undum.SimpleSituation(
-        "<h1>1 - El descubrimiento</h1>\
+        "<h1>1 - La investigación</h1>\
         <p>Ya llevaba casi tres semanas encerrado en aquella base militar, sin\
         contacto con el exterior, pero eso a él poco le importaba, ya que su\
         vida anterior había terminado. Sin embargo, su ánimo empezaba a resentirse\
@@ -799,7 +799,6 @@ undum.game.situations = {
 	                system.write("<p>Empezaba a perder el ánimo. Cabizbajo, se\
 	                levantó para dejar el disco que tenía en la mano y apagar el\
 	                ordenador y las luces.</p>");
-	                system.write("<p>Antes de salir echó un vistazo de reojo a la tablilla tres.</p>");
                     system.write("<p>&laquo;¿Qué era eso?&raquo;. Le había parecido\
                     ver algo extraño en la pantalla del ordenador al pasar junto\
                     a él. Se acercó a ella para comprobarlo mejor.</p>");
@@ -891,73 +890,125 @@ undum.game.situations = {
         formados por tres símbolos: barras (cinco), puntos (uno) y conchas\
         estilizadas (cero).</p>\
         <p>En las páginas del códice se hablaba de las deidades, de enfermedades,\
-        curas y peligros al nacer y de los ciclos de Venus. Había tablas de\
+        curas y peligros al nacer y de los ciclos de Venus. Había tablas de los\
         eclipses solares y lunares y una misteriosa tabla de multiplicar del\
-        número 78. No había conseguido averiguar la importancia de este número.</p>\
+        números 78 y 91. No había conseguido averiguar la importancia de esos números.</p>\
         <p>También se hablaba de los desastres que podían ocurrir al final de un\
         ciclo de 13 k'atun (un k'atun equivalía a 20 años) y de los números serpiente,\
-        que indicaban eventos míticos en períodos de unos 30.000 años.</p>\
-        <p>Pero, la traducción parcial que había hecho dejaba\
-        muchos interrogantes por responder: ¿Por qué llamaban a los Dropa\
-        \"recien llegados\"? ¿Por qué dos tribus de la misma región tenían\
-        que hablarse por señas? ¿Por qué la historia contada en los discos\
-        especificaba que fueron los Ham los que no entendían a los Dropa y\
-        no al revés, o como sería más normal, que no se entendían ninguna de\
-        las dos tribus?</p>\
-        <p>Eran los primeros discos y los últimos los que no\
-        había conseguido traducir. Había símbolos y dibujos a los que no\
-        encontraba sentido.</p>\
+        que indicaban eventos míticos en períodos de unos 30.000 años. Y de la Gran\
+        Inundación, un desastre cósmico que acabó destruyendo el mundo por una gran\
+        inundación. Según el códice, el mundo actual había sido precedido por\
+        otros tres mundos.</p>\
+        <p>Pero lo más intrigante de todo era que el códice contenía tablas\
+        astronómicas de una precisión extraordinaria. Predecía con exactitud los\
+        movimientos de Marte y de Venus.</p>\
+        <p>¿Cómo una civilización tan antigua podía haber obtenido conocimientos\
+        tan avanzados del cosmos? ¿Qué importancia tenían los números 78 y 91?</p>\
+        <p>Había símbolos y dibujos a los que no encontraba sentido. Había algo que\
+        se le debía estar escapando, algo importante.</p>\
         <p>Repasó y repasó sus notas, contrastándolas una\
+        y otra vez, pero le fue imposible avanzar. Otro día perdido.</p>\
         <p><br/></p>\
-        <p class='transient'><a href='wcap1h15'>&gt; Continúa leyendo.</a></p>"
+        <p class='transient'><a href='wcap1h22'>&gt; Continúa leyendo.</a></p>"
     ),
     wcap1h21: new undum.Situation(
+        "<p>Descartó todas sus notas y abrió los modelos en 3D\
+        del códice que tenía en el ordenador, para poder verlo todo con más detalle.</p>\
+        <p>Repasó los métodos utilizados y se puso manos a la obra minuciosamente\
+        jeroglífico por jeroglífico.</p>\
+        <p>El códice había sido escrito por seis escribas diferentes. Cada uno\
+        tenía su propio tema, estilo de escritura y glifos diferentes. Las imágenes\
+        del códice habían sido pintadas con una claridad extraordinaria,\
+        utilizando pinceles muy finos.</p>\
+        <p>Había conseguido decodificar buena parte de los símbolos que\
+        había en el códice. La mayoría se refería a las figuras adjuntas y\
+        comentaban sobre las imágenes en frases cortas. También había números,\
+        formados por tres símbolos: barras (cinco), puntos (uno) y conchas\
+        estilizadas (cero).</p>\
+        <p>En las páginas del códice se hablaba de las deidades, de enfermedades,\
+        curas y peligros al nacer y de los ciclos de Venus. Había tablas de los\
+        eclipses solares y lunares y una misteriosa tabla de multiplicar del\
+        números 78 y 91. No había conseguido averiguar la importancia de esos números.</p>\
+        <p>También se hablaba de los desastres que podían ocurrir al final de un\
+        ciclo de 13 k'atun (un k'atun equivalía a 20 años) y de los números serpiente,\
+        que indicaban eventos míticos en períodos de unos 30.000 años. Y de la Gran\
+        Inundación, un desastre cósmico que acabó destruyendo el mundo por una gran\
+        inundación. Según el códice, el mundo actual había sido precedido por\
+        otros tres mundos.</p>\
+        <p>Pero lo más intrigante de todo era que el códice contenía tablas\
+        astronómicas de una precisión extraordinaria. Predecía con exactitud los\
+        movimientos de Marte y de Venus.</p>\
+        <p>¿Cómo una civilización tan antigua podía haber obtenido conocimientos\
+        tan avanzados del cosmos? ¿Qué importancia tenían los números 78 y 91?</p>\
+        <p>Había símbolos y dibujos a los que no encontraba sentido. Había algo que\
+        se le debía estar escapando, algo importante.</p>\
+        <p>Repasó y repasó sus notas, contrastándolas una\
+        y otra vez, pero le fue imposible avanzar. Otro día perdido.</p>\
+        <p><br/></p>\
+        <p class='transient'><a href='wcap1h22'>&gt; Continúa leyendo.</a></p>"
+    ),    
+    wcap1h22: new undum.Situation(
         {
             enter: function(character, system, from) {
-                system.write("<p>Descartó todas sus notas y abrió los modelos en 3D\
-                de los discos en el ordenador. ¡Había algo que se le estaba\
-                escapando! ¡Tenía que estar ahí!</p>");
-                system.write("<p>Repasó los métodos utilizados y se\
-                puso manos a la obra minuciosamente glifo por glifo.</p>");
-                system.write("<p>Despejó su mente y volvió a reordenar las transcripciones\
-                que había hecho de los discos.</p>");
-                system.write("<p>Comenzó por la parte que ya sabía, la de los discos\
-                centrales, o al menos él suponía que eran los que conformaban la parte\
-                central del relato.</p>");
-                system.write("<p>Los discos contaban la historia de cómo los Dropa\
-                buscaron refugio en las cuevas de las montañas y, a pesar de que\
-                sus intenciones eran pacíficas, no fueron comprendidos por los miembros\
-                de la tribu Ham, los cuales, ocupaban las cuevas vecinas y, pensando\
-                que eran enemigos que querían apoderarse de su territorio, persiguieron\
-                y mataron a algunos de los Dropa. Cuando, finalmente, los Ham\
-                comprendieron el lenguaje por señas de los Dropa, los admitieron\
-                en su territorio al saber que los recién llegados tenían intenciones\
-                pacíficas.</p>");
-                system.write("<p>Pero, la traducción parcial que había hecho dejaba\
-                muchos interrogantes por responder: ¿Por qué llamaban a los Dropa\
-                \"recien llegados\"? ¿Por qué dos tribus de la misma región tenían\
-                que hablarse por señas? ¿Por qué la historia contada en los discos\
-                especificaba que fueron los Ham los que no entendían a los Dropa y\
-                no al revés, o como sería más normal, que no se entendían ninguna de\
-                las dos tribus?</p>");
-                system.write("<p>Eran los primeros discos y los últimos los que no\
-                había conseguido traducir. Había símbolos y dibujos a los que no\
-                encontraba sentido.</p>");
-                system.write("<p>Era ya muy tarde cuando desistió de encontrar\
-                algo útil en el resto de discos. Le era imposible de descifrar, por más\
-                que lo intentaba, lo que significaban algunos símbolos y dibujos clave.\
-                Tenía la impresión de que debían contar los orígenes de la tribu de\
-                los Dropa, pero no le encontraba sentido a la sucesión de glifos.</p>");
-                system.write("<p>Repasó y repasó su trabajo, contrastándo con\
-                los libros de Sitchin, pero le fue imposible avanzar. Otro día\
-                perdido.</p>");
-                system.write("<p><br/></p>");
-                system.write("<p class='transient'><a href='wcap1h15'>&gt; Continúa leyendo.</a></p>");
+                if (system.rnd.randomInt(1, 10) < 6) {
+	                system.write("<p>Apagó el ordenador y, cabizbajo, se dirigió\
+	                a su habitación. Empezaba a perder el ánimo.</p>");
+	                system.write("<p><br/></p>");
+                    system.write("<p class='transient'><a href='wcap1h23'>&gt; Continúa leyendo.</a></p>");
+                } else {
+	                system.write("<p>Empezaba a perder el ánimo. Cabizbajo, se\
+	                dispuso a apagar el ordenador y las luces.</p>");
+                    system.write("<p>&laquo;¡Un momento! ¿Qué era eso?&raquo;. Le había parecido\
+                    ver algo extraño en la pantalla del ordenador al pasar junto\
+                    a él. Se acercó a ella para comprobarlo mejor.</p>");
+	                system.write("<p><br/></p>");
+                    system.write("<p class='transient'><a href='wcap1h24'>&gt; Continúa leyendo.</a></p>");
+                }
             }
         }
     ),    
+    wcap1h23: new undum.SimpleSituation(
+        "<p>No había podido pegar ojo en toda la noche tras el nuevo fracaso del\
+        día anterior con el códice. No obstante, se había levantado con un\
+        poco más de ánimo con el que se había acostado, aunque no demasiado.</p>\
+        <p>De nuevo, al llegar al laboratorio, se hizo la misma pregunta de todos\
+        los días. ¿Por dónde empezar?</p>\
+        <p><br/></p>\
+        <p class='transient'><a href='wcap1h2'>&gt; Decidirse por estudiar el códice maya.</a></p>\
+        <p class='transient'><a href='wcap1h3'>&gt; Decidirse por estudiar las tablillas de arcilla.</a></p>\
+        <p class='transient'><a href='wcap1h4'>&gt; Decidirse por estudiar los discos de los Dropa.</a></p>"
+    ),
+    wcap1h24: new undum.SimpleSituation(
+        "<p>&laquo;¡Sí!&raquo;. Algo extraño había en la página del códice que\
+        tenía en esos momentos en pantalla.</p>\
+        <p>Se inclinó sobre el teclado, sin sentarse, y aumentó el zoom para ver\
+        con más detalle la anomalía.</p>\
+        <p>Corrió atolondradamente hacia el códice original y fijó su mirada en\
+        la zona que le había llamado la atención.</p>\
+        <p>&laquo;¡Sí! ¡Ahí estaba!&raquo;.</p>\
+        <p>Junto a las páginas dedicadas a los números serpiente, estaban las\
+        dedicadas a los pilares del universo, una serie de manifestaciones del\
+        dios de la lluvia Chaac. Pero había una en concreto que le había pasado\
+        desapercibida hasta ahora y que había visto antes en alguna parte.</p>\
+        <p><br/></p>\
+        <p class='transient'><a href='wcap1h24'>&gt; Continúa leyendo.</a></p>"
+    ),
+    wcap1h11: new undum.SimpleSituation(
+        "<p>Lleno de entusiamo e impaciencia volvió de nuevo ante el ordenador del\
+        laboratorio.</p>\
+        <p>&laquo;¡Tiene que estar por aquí! ¡Tiene que estar por aquí!&raquo;.\
+        A una velocidad endiablada, buscó entre cientos de imágenes hasta que\
+        por fin encontró lo que buscaba.</p>\
+        <p>&#8212;¡SI! ¡SI! ¡SI! &#8212; Salió corriendo del laboratorio, gritando,\
+        con la intención de despertar a todo el Área 51.</p>\
+        <p>La pantalla del ordenador mostraba el glifo que se correspondía con la\
+        misma inscripción que se podía encontrar en la denominada tumba del\
+        astronauta de Palenque.</p>\
+        <p><br/></p>\
+        <p class='transient'><a href='wcap2h1'>&gt; Ir al capítulo 2.</a></p>"
+    ),
     pcap1h1: new undum.SimpleSituation(
-        "<h1>1 - El descubrimiento</h1>"
+        "<h1>1 - La investigación</h1>"
     ),
     intro3: new undum.SimpleSituation(
         "<p>Le costaba horrores avanzar. Había estado caminando sin parar durante\
