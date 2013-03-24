@@ -991,9 +991,9 @@ undum.game.situations = {
         dios de la lluvia Chaac. Pero había una en concreto que le había pasado\
         desapercibida hasta ahora y que había visto antes en alguna parte.</p>\
         <p><br/></p>\
-        <p class='transient'><a href='wcap1h24'>&gt; Continúa leyendo.</a></p>"
+        <p class='transient'><a href='wcap1h25'>&gt; Continúa leyendo.</a></p>"
     ),
-    wcap1h11: new undum.SimpleSituation(
+    wcap1h25: new undum.SimpleSituation(
         "<p>Lleno de entusiamo e impaciencia volvió de nuevo ante el ordenador del\
         laboratorio.</p>\
         <p>&laquo;¡Tiene que estar por aquí! ¡Tiene que estar por aquí!&raquo;.\
@@ -1007,6 +1007,115 @@ undum.game.situations = {
         <p><br/></p>\
         <p class='transient'><a href='wcap2h1'>&gt; Ir al capítulo 2.</a></p>"
     ),
+    wcap2h1: new undum.SimpleSituation(
+        "<h1>2 - El Fin</h1>\
+        <p>&#8212;¡Vamos!¡Un poco más! ¡Ya falta poco!</p>\
+        <p>El que le gritaba era Austin, un marine del ejército que le habían puesto\
+        de guardaespaldas. ¿Por qué iba a tener que necesitar un guardaespaldas\
+        en aquella región remota e inhabitada del planeta? A pesar de sus quejas,\
+        no le hicieron caso. Los tecnócratas del gobierno quizás temían que\
+        descubriera algo que no les gustara.</p>\
+        <p>Notó un último tirón a la cuerda que le rodeaba la cintura y consiguió\
+        llegar, por fin, al lugar donde estaba el gigantesco marine. Estaba empezando\
+        a creer que, al fin y al cabo, no era tan mala idea tenerlo cerca.<p>\
+        <p> Levantó la vista, una vez había recuperado el aliento y se había liberado\
+        de la cuerda que le ataba. Allí, la nieve les llegaba hasta casi las rodillas\
+        lo que hacía que cada paso que daba fuera un auténtico suplicio.</p>\
+        <p>&#8212;Creo que hemos llegado. La entrada a las cuevas debe estar tras\
+        aquellas rocas. &#8212; informó al marine tras comprobar sus notas.</p>\
+        <p>&#8212;Está bien. Vaya a buscar la entrada mientras recojo el equipo.</p>\
+        <p><br/></p>\
+        <p class='transient'><a href='wcap2h2'>&gt; Buscar la entrada a las cuevas.</a></p>\
+        <p class='transient'><a href='wcap2h3'>&gt; Ayudar a Austin a recoger el equipo.</a></p>"
+    ),
+    wcap2h2: new undum.SimpleSituation(
+        "<p>Dejó al marine recogiendo el equipo de escalada y se acercó a las paredes\
+        de roca a buscar la entrada a las cuevas.</p>\
+        <p>No tardó demasiado en encontrar una pequeña grieta en la roca, aunque\
+        suficientemente amplia para que la atravesara una persona y su equipo.</p>\
+        <p>&#8212;¡Eehh, Austin! ¡La he encontrado! &#8212; gritó al marine para\
+        informarle del hallazgo.</p>\
+        <p>El marine, que ya estaba guardando la última cuerda en la mochila, se\
+        incorporó y levantó su brazo con el pulgar hacia arriba, dando a entender\
+        que le había oido.</p>\
+        <p>Fue justo en ese momento cuando vio un fugaz brillo entre los árboles\
+        que había a unos cien metros de donde se encontraba</p>\
+        <p>Ni siquiera le dio tiempo a avisar a Austin. Oyó un disparo y vio como\
+        el marine se desplomaba. Se echó al suelo, protegido tras unas rocas.</p>\
+        <p>El corazón le latía a tal velocidad que tenía la sensación de que se\
+        le iba a escapar del pecho. Oyó un segundo disparo, éste más cercano a\
+        su posición. Había dado en la piedra que le protegía. Tenía que pensar con rapidez.</p>\
+        <p><br/></p>\
+        <p class='transient'><a href='wcap2h4'>&gt; Correr hacia la cueva.</a></p>\
+        <p class='transient'><a href='wcap2h5'>&gt; Socorrer a Austin.</a></p>"
+    ),
+    wcap2h3: new undum.SimpleSituation(
+        "<p>&#8212; Mejor te ayudo a recoger. Así iremos más deprisa.</p>\
+        <p>Cuando tuvieron todo el material cargado en las mochilas, se encaminaron\
+        hacia donde suponían que estaba la entrada a las cuevas.</p>\
+        <p>No tardaron en encontrar una pequeña grieta en la roca, aunque lo\
+        suficientemente amplia para que la atravesara una persona y su equipo.</p>\
+        <p>&#8212;¡Mierda! ¡No estamos solos! ¡Al suelo! &#8212; El marine le\
+        empujo tras unas rocas.</p>\
+        <p>&#8212;¿Cómo? ¿Quién iba a estar en este maldito lugar?</p>\
+        <p>Austin señaló hacia unos árboles. Efectivamente, se podía ver un\
+        brillo fugaz de vez en cuando.</p>\
+        <p>El marine le hizo una seña para que no se moviera del sitio, mientras,\
+        arrastrándose por el suelo y ocultándose entre las rocas, se alejaba para\
+        intentar rodear a quien quiera que les estuviese siguiendo.</p>\
+        <p>Siguió al marine con la vista, hasta que tuvo que abandonar la cobertura\
+        de las rocas para llegar hasta los árboles. Justo en ese momento, vio como\
+        el brillo había cambiado también de posición. Ni siquiera le dio tiempo a\
+        avisar a Austin. Oyó un disparo y vio como el marine se desplomaba.</p>\
+        <p>El corazón le latía a tal velocidad que tenía la sensación de que se\
+        le iba a escapar del pecho. Tenía que pensar con rapidez.</p>\
+        <p><br/></p>\
+        <p class='transient'><a href='wcap2h4'>&gt; Correr hacia la cueva.</a></p>\
+        <p class='transient'><a href='wcap2h5'>&gt; Socorrer a Austin.</a></p>"
+    ),
+    wcap2h4: new undum.SimpleSituation(
+        "<p>Jamás se perdonará a sí mismo haber abandonado al marine a una muerte\
+        segura.</p>\
+        <p>Cogió todo el equipo que pudo y corrió hacia la entrada a la cueva. Notó\
+        el silbido de un par de balas pasando muy cerca de él. No quiso saber cómo\
+        de cerca habían pasado. Su única esperanza de sobrevivir al francotirador\
+        era alcanzar la entrada a la cueva.<p>\
+        <p class='transient'><a href='wcap2h7'>&gt; Continúa leyendo.</a></p>"
+    ),
+    wcap2h5: new undum.SimpleSituation(
+        "<p>¡No podía dejar al marine allí herido!</p>\
+        <p>Intentó incorporarse para correr hacia donde estaba el cuerpo de Austin\
+        pero nada más asomar la cabeza, recibió un disparo que, por suerte, dio en\
+        la roca.<p>\
+        <p>Volvió a intentarlo, con el mismo resultado. ¿Qué podía hacer? ¿Abandonar al\
+        marine a una muerte segura y entrar a la cueva o intentar socorrerlo una vez más?</p>\
+        <p><br/></p>\
+        <p class='transient'><a href='wcap2h4'>&gt; Correr hacia la cueva.</a></p>\
+        <p class='transient'><a href='wcap2h6'>&gt; Socorrer a Austin.</a></p>"
+    ),
+    wcap2h6: new undum.SimpleSituation(
+        "<p>Jamás se perdonaría a sí mismo haber abandonado al marine a una muerte\
+        segura.</p>\
+        <p>Miró a su alrededor a ver si se le ocurría algo. Encontró un piolet del\
+        equipo de escalada. Lo cogió y lo lanzó lo más lejos que pudo en la dirección\
+        opuesta a la que se encontraba Austin.</p>\
+        <p>Escuchó unos disparos dirigidos hacia donde había caido el piolet. Era la\
+        señal.</p>\
+        <p>Se incorporó y salió corriendo lo más rápido que pudo hacia el marine.\
+        Lamentablemente, la nieve le impedía avanzar como debería y, tarde, se dio\
+        cuenta de que jamás alcanzaría a tiempo su objetivo.</p>\
+        <p>Oyó un disparo a su espalda. Inmeditamente, un dolor inmenso en el muslo\
+        de su pierna derecha. Se desplomó sobre la nieve y pudo ver como un río\
+        rojo se extendía por la nieve.</p>\
+        <p>A pesar de tener la vista nublada, pudo distinguir a una mujer morena,\
+        de aspecto atlético, que se le acercaba apuntándole con un arma.</p>\
+        <p>Se detuvo cuando llegó junto a él, sin dejar de apuntarle a la cabeza</p>\
+        <p>&#8212; Lo siento, pero no puedo permitir que nadie se me adelante. Que\
+        Dios me perdone.</p>\
+        <p>Vió un fogonazo. Luego, silencio.</p>\
+        <p><br/></p>\
+        <h1>*** FIN ***</h1>"
+    ),    
     pcap1h1: new undum.SimpleSituation(
         "<h1>1 - La investigación</h1>"
     ),
@@ -1676,7 +1785,11 @@ undum.game.qualities = {
 /*    skill: new undum.IntegerQuality(
         "Skill", {priority:"0001", group:'stats'}
     ),*/
-    nivel: new undum.IntegerQuality(
+    profesion: new undum.WordScaleQuality(
+        "Profesión", ["Arqueólogo","Agente Secreto"],{priority:"0002", group:'general'}
+    ),
+
+/*    nivel: new undum.IntegerQuality(
         "Nivel", {priority:"0001", group:'general'}
     ),
     profesion: new undum.WordScaleQuality(
@@ -1709,12 +1822,12 @@ undum.game.qualities = {
     subterfugio: new undum.IntegerQuality(
         "Subterfugio", {priority:"0006", group:'stats'}
     ),
-
+*/
  /*  luck: new undum.FudgeAdjectivesQuality( // Fudge as in the FUDGE RPG
         "<span title='Skill, Stamina and Luck are reverently borrowed from the Fighting Fantasy series of gamebooks. The words representing Luck are from the FUDGE RPG. This tooltip is illustrating that you can use any HTML in the label for a quality (in this case a span containing a title attribute).'>Luck</span>",
         {priority:"0003", group:'stats'}
     ),*/
-
+/*
     inspiration: new undum.NonZeroIntegerQuality(
         "Inspiration", {priority:"0001", group:'progress'}
     ),
@@ -1729,7 +1842,7 @@ undum.game.qualities = {
     ),
     deudaalma: new undum.OnOffQuality(
         "Deuda de alma", {priority:"0003", group:'progress', onDisplay:"&#10003;"}
-    )
+    )*/
 };
 
 // ---------------------------------------------------------------------------
@@ -1749,7 +1862,8 @@ undum.game.qualityGroups = {
  * to configure the character at the start of play. */
 undum.game.init = function(character, system) {
     //character.qualities.skill = 12;
-    character.qualities.nivel = 1;
+     character.qualities.profesion = 0; //Arqueólogo
+/*    character.qualities.nivel = 1;
     character.qualities.profesion = 1;
     character.qualities.stamina = 9;
     character.qualities.defensa = 8;
@@ -1809,9 +1923,9 @@ undum.game.init = function(character, system) {
     character.qualities.maldicion = 0;
     character.qualities.deudaalma = 0;
     //system.setCharacterText("<p>You are starting on an exciting journey.</p>");
-    
+*/    
     var nompers=document.getElementById("nompersonaje");
-    if (system.rnd.randomInt(1, 10) < 6) {
+    if (system.rnd.randomInt(1, 10) < 11) {
       undum.game.start = "w_intro";
       //system.writeBefore("<h1>WILLIAM BAFFORD</h1>",$("#character"));
       $('#nompersonaje').append('WILLIAM BAFFORD');
