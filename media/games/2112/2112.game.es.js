@@ -1056,7 +1056,7 @@ undum.game.situations = {
         <p>No tardaron en encontrar una pequeña grieta en la roca, aunque lo\
         suficientemente amplia para que la atravesara una persona y su equipo.</p>\
         <p>&#8212;¡Mierda! ¡No estamos solos! ¡Al suelo! &#8212; El marine le\
-        empujo tras unas rocas.</p>\
+        empujó tras unas rocas.</p>\
         <p>&#8212;¿Cómo? ¿Quién iba a estar en este maldito lugar?</p>\
         <p>Austin señaló hacia unos árboles. Efectivamente, se podía ver un\
         brillo fugaz de vez en cuando.</p>\
@@ -1080,6 +1080,7 @@ undum.game.situations = {
         el silbido de un par de balas pasando muy cerca de él. No quiso saber cómo\
         de cerca habían pasado. Su única esperanza de sobrevivir al francotirador\
         era alcanzar la entrada a la cueva.<p>\
+        <p><br/></p>\
         <p class='transient'><a href='wcap2h7'>&gt; Continúa leyendo.</a></p>"
     ),
     wcap2h5: new undum.SimpleSituation(
@@ -1125,8 +1126,303 @@ undum.game.situations = {
         adentró en la cueva por el único camino posible. No podía quedarse demasiado\
         tiempo allí, pues el francotirador no tardaría en seguir sus pasos en cuanto\
         se diera cuenta de que ya no estaba oculto tras las rocas.<p>\
+        <p><br/></p>\
         <p class='transient'><a href='wcap2h8'>&gt; Continúa leyendo.</a></p>"
+    ),  
+    wcap2h8: new undum.SimpleSituation(
+        "<p>Calculaba que se habría adentrado más o menos un kilómetro en el interior\
+        de la montaña. Obviamente, cualquier atisbo de iluminación era impensable,\
+        salvo la que proyectaba la linterna de su equipo de espeleología.</p>\
+        <p>Se giró instintivamente para ver si le seguían, pero no pudo ver ni oir nada.<p>\
+        <p>Unos metros más adelante se topó con una bifurcación en la gruta. Se\
+        asomó a los dos nuevos caminos, pero ambos parecían iguales, descendiendo\
+        hacia una negrura aún mucho mayor, si eso era posible.</p>\
+        <p>Debía decidirse por uno de los dos, y no podía demorarse mucho en su\
+        elección.</p>\
+        <p><br/></p>\
+        <p class='transient'><a href='wcap2h9'>&gt; Seguir por el camino de la izquierda.</a></p>\
+        <p class='transient'><a href='wcap2h10'>&gt; Seguir por el camino de la derecha.</a></p>"
+    ), 
+    wcap2h9: new undum.SimpleSituation(
+        "<p>&#8212; ¡Qué sea lo que Dios quiera! &#8212; se dijo a sí mismo mientras\
+        se adentraba en la gruta de la izquierda.</p>\
+        <p>Caminó unos cientos de metros antes de llegar a una cavidad inmensa. Tan\
+        grande era, que la luz de la linterna no llegaba a iluminar ninguno de los\
+        lados.<p>\
+        <p>Tampoco podía seguir adelante, pues la gruta terminaba abruptamente en\
+        aquella sala. Se arrimó al borde e iluminó hacia abajo.</p>\
+        <p>No podía creer lo que vio. Unos cien metros más abajo en vertical, junto\
+        a la pared de la cueva, había lo que parecía una rampa que descendía hacia\
+        la oscura profundidad de la sala.</p>\
+        <p>&laquo;¡No puede ser! ¡Esa rampa no es una formación natural!&raquo;. Se\
+        echó para atrás, alejándose del borde, para recuperar el aliento.</p>\
+        <p>El camino terminaba allí, a no ser que descendiera por la pared vertical\
+        de la cueva hasta la rampa. Quizás el otro camino que dejó atrás llevara\
+        directamente a la rampa, sin tener que realizar el peligroso descenso</p>\
+        <p><br/></p>\
+        <p class='transient'><a href='wcap2h11'>&gt; Volver a la bifurcación.</a></p>\
+        <p class='transient'><a href='wcap2h12'>&gt; Descender hasta la rampa.</a></p>"
+    ),   
+    wcap2h11: new undum.SimpleSituation(
+        "<p>Decidió que valía la pena probar el otro camino, ya que el descenso en\
+        vertical hasta la rampa parecía demasiado peligroso. Además, no iba a\
+        averiguar qué había más allá de la rampa hasta que no hubiera descendido\
+        hasta ella, lo que podría ser demasiado tarde.</p>\
+        <p>Retrocedió sobre sus pasos y, cuando estaba a punto de llegar de nuevo\
+        a la bifurcación, pudo ver una luz que se acercaba.<p>\
+        <p>&laquo;¡Hostia! ¡Me han seguido hasta aquí!&raquo;.</p>\
+        <p>Seguramente ya habrían visto la luz de su linterna. No había tiempo que perder.</p>\
+        <p><br/></p>\
+        <p class='transient'><a href='wcap2h13'>&gt; Huir por el desconocido camino de la izquierda.</a></p>\
+        <p class='transient'><a href='wcap2h14'>&gt; Volver hasta el precipicio.</a></p>"
+    ), 
+    wcap2h12: new undum.SimpleSituation(
+        "<p>Encontró rápidamente una formación rocosa en la que parecía adecuado\
+        atar la cuerda con seguridad. Soportaría de sobra su peso y el del equipo.</p>\
+        <p>Se aseguró los arneses e inició el descenso vertical.<p>\
+        <p>El descenso era más peligroso de lo que parecía. La humedad y el hielo\
+        hacía que la pared fuese endiabladamente resbaladiza, sin apenas zonas en\
+        las que poder agarrarse para frenar la caida por la cuerda.</p>\
+        <p>Le quedaban unos 20 metros hasta la rampa cuando vio la luz de la linterna\
+        asomándose al borde por el que había iniciado el descenso.</p>\
+        <p>&laquo;¡Joder! &raquo;. Comenzó a descender más deprisa.</p>\
+        <p>Pero no le dio tiempo. Enseguida notó como la cuerda perdía la tensión,\
+        y cayó a plomo sobre la rampa.</p>\
+        <p><br/></p>\
+        <p class='transient'><a href='wcap2h16'>&gt; Continúa leyendo.</a></p>"
+    ), 
+    wcap2h13: new undum.SimpleSituation(
+        "<p>&laquo;¡Me cago en la puta! ¡Mierda!&raquo;. No podía volver al precipicio.\
+        Si le seguían, le pillarían a medio descenso hasta la rampa, lo que sería su fin.</p>\
+        <p>Así que salió corriendo por el desconocido camino de la izquierda.<p>\
+        <p>Corría lo más rápido que le permitía el equipo que portaba. Oía también\
+        la carrera de su perseguidor. ¡Le habían visto!</p>\
+        <p>La gruta iba descendiendo cada vez con una pendiente mayor. Oyó un par\
+        de disparos, que se estrellaron en las paredes de roca bastante lejos de\
+        él, afortunadamente. No podía aminorar la marcha.</p>\
+        <p><br/></p>\
+        <p class='transient'><a href='wcap2h15'>&gt; Continúa leyendo.</a></p>"
+    ), 
+    wcap2h14: new undum.SimpleSituation(
+        "<p>&laquo;¡Me cago en la puta! ¡Mierda!&raquo;. No podía arriesgarse a\
+        correr a ciegas por un camino que no había explorado. Así que volvió corriendo\
+        hacia el precipicio, dispuesto a descolgarse hasta la rampa.</p>\
+        <p>Calculaba que, a la distancia a la que había visto la luz de su perseguidor\
+        le daría tiempo a atar una cuerda a algún saliente de la cueva y descender\
+        por ella hasta la rampa.</p>\
+        <p><br/></p>\
+        <p class='transient'><a href='wcap2h12'>&gt; Continúa leyendo.</a></p>"
+    ),     
+    wcap2h15: new undum.SimpleSituation(
+        "<p>Siguió corriendo a la par que la pendiente seguía aumentando.</p>\
+        <p>Unos metros más abajo, vió que la gruta se ensanchaba, pero también\
+        vio con horror que el camino se cortaba en seco.</p>\
+        <p>Intentó frenar su carrera, pero la inercia y la humedad del suelo hicieron\
+        que no fuera posible.</p>\
+        <p>Realizó un último esfuerzo por intentar agarrarse desesperadamente a\
+        algún saliente de la pared, pero tan solo pudo sentir como se rompían\
+        varios dedos de sus manos.</p>\
+        <p>Cayó al oscuro vacío, golpeándose con obstáculos que ya no pudo ni ver.</p>\
+        <p><br/></p>\
+        <h1>*** FIN ***</h1>"
     ),    
+    wcap2h16: new undum.SimpleSituation(
+        "<p>Todo le daba vueltas.</p>\
+        <p>Se incorporó como pudo, no sin lanzar un alarido de dolor cuando apoyó\
+        el brazo izquierdo en el suelo para tratar de levantarse.<p>\
+        <p>Miró a su alrededor, para ubicarse. Afortunadamente, parecía que la\
+        mochila con el equipo había amortiguado en parte la caida. Su brazo izquierdo\
+        no parecía haber tenido tanta suerte como el resto de su cuerpo.</p>\
+        <p>Estaba roto.</p>\
+        <p>Recogió el equipo que le quedaba y se dispuso a bajar por la rampa.</p>\
+        <p>Era el único camino posible.</p>\
+        <p><br/></p>\
+        <p class='transient'><a href='wcap2h17'>&gt; Continúa leyendo.</a></p>"
+    ), 
+    wcap2h17: new undum.SimpleSituation(
+        "<p>No había duda de que la rampa por la que estaba descendiendo era\
+        artificial. Estaba perfectamente tallada y descendía con una pendiente\
+        constante, siguiendo la curva que iba describiendo la pared de la gruta.</p>\
+        <p>No cayó en la cuenta hasta que hubo descendido varios cientos de metros\
+        por la rampa.<p>\
+        <p>Si alumbraba con la linterna hacia el centro de la sala, la distancia\
+        de alumbrado era mucho menor de la que debería ser. Lo mismo ocurría si\
+        se acercaba al borde de la rampa y alumbraba hacía abajo. Sin embargo, si\
+        alumbraba el camino que le quedaba por delante en la rampa, la distancia\
+        a la que alcanzaba la luz era la que se podía esperar.</p>\
+        <p>¿Qué podía estar causando ese extraño efecto? Sólo se le ocurría una\
+        cosa que pudiera producir ese efecto sobre la luz: los agujeros negros.\
+        Pero eso no era posible.</p>\
+        <p>Continuó descendiendo.</p>\
+        <p><br/></p>\
+        <p class='transient'><a href='wcap2h18'>&gt; Continúa leyendo.</a></p>"
+    ), 
+    wcap2h18: new undum.SimpleSituation(
+        "<p>Descendió durante horas por la rampa. No sabría calcular a qué\
+        profundidad se podría encontrar. De repente, la linterna iluminó, unos\
+        metros más adelante, un suelo de roca sin pendiente. ¡Había llegado al\
+        final de la rampa!</p>\
+        <p>Exhausto, se descargó de todo el equipo y se sentó en el suelo, apoyado\
+        en la pared, para descansar.<p>\
+        <p>Mientras recobraba poco a poco el aliento, iluminó alrededor para otear\
+        la sala en la que se encontraba. Era inmensa. Jamás podría haber imaginado\
+        siquiera que pudiera existir semejante cavidad en el interior de una montaña.</p>\
+        <p>La innatural negrura que ocupaba todo el centro de la sala seguía allí,\
+        incluso a nivel del suelo, aunque no parecía que fuese nada. Simplemente,\
+        la luz se quedaba atrapada en ella.</p>\
+        <p>Enfocó la linterna hacia un monolito que llamó su atención.</p>\
+        <p>Era la única estructura que había allí, a parte de lo que demonios fuera\
+        la negra parte central de la sala. Tenía aproximadamente medio metro de\
+        alto, y era un cubo perfecto. Se levantó para acercarse a examinarlo.</p>\
+        <p><br/></p>\
+        <p class='transient'><a href='wcap2h19'>&gt; Continúa leyendo.</a></p>"
+    ), 
+    wcap2h18: new undum.SimpleSituation(
+        "<p>El cubo estaba perfectamente tallado en un material totalmente negro\
+        y reflectante. No parecía tener impurezas de ninguna clase.</p>\
+        <p>Las caras laterales estaban llenas de glifos tallados, todos diferentes\
+        entre sí, que le dieron la impresión de ser pulsadores. En la cara superior,\
+        había múltiples combinaciones de cuatro glifos, ninguna repetida, agrupados\
+        en doce grupos de treinta combinaciones. Había un treceavo grupo con cinco\
+        combinaciones, también de cuatro glifos cada una.<p>\
+        <p>&laquo;¡Era un calendario! ¡Doce meses de treinta días y un treceavo de\
+        cinco! ¡Trescientos sesenta y cinco días!&raquo;.</p>\
+        <p>Se encontraba ante el panel de control de alguna maquinaria. ¡O tal vez\
+        algo que desactivara la negrura y mostrase lo que oculta! Pero, la cueva\
+        tenía cientos de miles de años de antigüedad, millones quizás. ¡Esa\
+        maquinaria estaba fuera de lugar!</p>\
+        <p><br/></p>\
+        <p class='transient'><a href='wcap2h19'>&gt; Continúa leyendo.</a></p>"
+    ), 
+    wcap2h19: new undum.SimpleSituation(
+        "<p>Había llegado donde siempre había soñado. La evidencia de la existencia\
+        de una Cultura Madre. Una cultura de la que habrían derivado todas las que\
+        conocemos. ¡Era el mayor descubrimiento de la Historia!</p>\
+        <p>Tenía que llegar hasta el final. Estaba demasiado cerca.<p>\
+        <p>Estudió el calendario. Vio que en las combinaciones de cuatro símbolos\
+        que indicaban los días del calendario, cada uno de los glifos estaba en\
+        una cara diferente del monolito.</p>\
+        <p>Supuso que debía pulsar los glifos correspondientes a un determinado\
+        día del calendario. Lo obvio era pulsar la combinación correspondiente al\
+        día en el que se encontraba: 21 de diciembre de 2012.</p>\
+        <p>Se centró en el doceavo grupo de combinaciones y contó la que hacía\
+        veintiuno.</p>\
+        <p><br/></p>\
+        <p class='transient'><a href='wcap2h20'>&gt; Pensarlo mejor.</a></p>\
+        <p class='transient'><a href='wcap2h21'>&gt; Pulsar la combinación.</a></p>"
+    ), 
+    wcap2h20: new undum.SimpleSituation(
+        "<p>&laquo;¡Un momento! ¡Imbécil!&raquo;. Cayó en la cuenta de que en meses\
+        de treinta días, el 21 de diciembre no es el vigesimo primer día del\
+        doceavo mes.</p>\
+        <p>En un año de trescientos sesenta y cinco días, el 21 de diciembre era\
+        el undécimo día contando desde el último día del año.<p>\
+        <p>Contó hacia atrás. Se sorprendió del resultado. El undécimo día empezando\
+        desde el final en el calendario que había en el monolito se correspondía\
+        con la veinticinco del grupo doce: 25 de diciembre.</p>\
+        <p>Comenzó a marcar los símbolos. Cuando estaba a punto de marcar el cuarto,\
+        oyo un disparo y, seguidamente, una bala alcanzó el lugar donde milésimas\
+        de segundo antes tenía apoyada la mano.</p>\
+        <p>&#8212; ¡Quieto! &#8212; una mujer, morena y atlética le apuntaba con\
+        un arma.</p>\
+        <p><br/></p>\
+        <p class='transient'><a href='wcap2h22'>&gt; Continúa leyendo.</a></p>"
+    ),
+    wcap2h21: new undum.SimpleSituation(
+        "<p>Localizó los cuatro glifos y comenzó a pulsarlos en el orden en el\
+        que estaban en el calendario.</p>\
+        <p>No ocurrió nada.</p>\
+        <p>&laquo;¡Un momento! ¡Imbécil!&raquo;. Cayó en la cuenta de que en meses\
+        de treinta días, el 21 de diciembre no es el vigesimo primer día del\
+        doceavo mes.</p>\
+        <p>En un año de trescientos sesenta y cinco días, el 21 de diciembre era\
+        el undécimo día contando desde el último día del año.<p>\
+        <p>Contó hacia atrás. Se sorprendió del resultado. El undécimo día empezando\
+        desde el final en el calendario que había en el monolito se correspondía\
+        con la veinticinco del grupo doce: 25 de diciembre.</p>\
+        <p>Comenzó a marcar los símbolos. Cuando estaba a punto de marcar el cuarto,\
+        oyo un disparo y, seguidamente, una bala alcanzó el lugar donde milésimas\
+        de segundo antes tenía apoyada la mano.</p>\
+        <p>&#8212; ¡Quieto! &#8212; una mujer, morena y atlética le apuntaba con\
+        un arma.</p>\
+        <p><br/></p>\
+        <p class='transient'><a href='wcap2h22'>&gt; Continúa leyendo.</a></p>"
+    ), 
+    wcap2h22: new undum.SimpleSituation(
+        "<p>&#8212; ¿Quién eres? ¿Por qué tratas de matarme? &#8212; Estaba aterrado.</p>\
+        <p>&#8212; Debo evitar que abras la caja. &#8212; Era bastante atractiva.</p>\
+        <p>&#8212; ¿Qué caja? ¡Estás ante el mayor descubrimiento de la Historia!\
+        ¡La evidencia de una cultura ancestral de la que descendemos todos! ¡La\
+        Atlántida de Platón! &#8212;.</p>\
+        <p>&#8212; ¡Nooo! ¡Ese artefacto provocará el apocalipsis que anuncia la\
+        Biblia! &#8212; Se acercaba hacia él, sin dejar de apuntarle.</p>\
+        <p>&#8212; ¡Estás equivocada! ¡Mis estudios demuestran que...! &#8212;.</p>\
+        <p>&#8212; ¡Tus estudios son los que están equivocados! ¡Mira!&#8212; le\
+        arrojó un papel.</p>\
+        <p>Leyó el papel. Tenía el sello del Vaticano. No entendía nada. Hablaba\
+        de la Virgen, de apariciones, de tres niñas portuguesas, del fin de los\
+        tiempos.</p>\
+        <p>&#8212; ¿Qué es esto? ¿Qué quieres demostrar con un escrito basado en\
+        la Fe?&#8212; sacudía en el aire la mano con el papel.</p>\
+        <p>&#8212; Soy Paola Larezzo, de los servicios secretos del Vaticano.\
+        Eso que tienes en la mano es la traducción del original del tercer secreto\
+        de Fátima. La profecía del último Papa. Nadie, repito, nadie la ha visto,\
+        salvo tú, yo y el Papa. Dice que hoy y aquí, se abrirá la caja que fue\
+        sellada y ocultada desde los inicios de los tiempos: la caja de Pandora.&#8212;.</p>\
+        <p>&#8212; ¡Eso son leyendas! Y, he de añadir, que no exclusivas del\
+        cristianismo.&#8212;.</p>\
+        <p>&#8212; ¿Estás seguro de lo que dices? ¡Mirá los glifos que has marcado!\
+        ¡No son iguales, pero se parecen mucho al arameo antiguo! ¡Mira ese! &#8212;\
+        señaló al primero que había pulsado.</p>\
+        <p>&#8212; ¡Es la letra Pe! ¿Y ese? &#8212; señaló al segundo símbolo\
+        marcado. &#8212; ¡Es Nun!</p>\
+        <p>&#8212; ¿Y ese otro que está marcado? ¡Es Daleth!&#8212; era el tercer\
+        símbolo. &#8212; ¡Apuesto lo que quieras a que el cuarto glifo es Resh! &#8212;\
+        señaló al glifo que le quedaba por pulsar.</p>\
+        <p>&#8212; ¿Qué pretendes demostrar? &#8212; le gritó a la agente vaticana.</p>\
+        <p>&#8212; ¿No estás familiarizado con el arameo, verdad? ¿Y con el griego?</p>\
+        <p>&#8212; Sí.</p>\
+        <p>&#8212; La aramea Pe es la equivalente griega a Pi. Nun es Ni. Daleth es\
+        Delta y, sorpresa, Resh es la griega Rho.</p>\
+        <p>&#8212; P, N, D y R. &#8212; dijo en voz baja.</p>\
+        <p>&#8212; Pandora. En arameo no existen las vocales.</p>\
+        <p>¿Cambiaba algo eso? ¡Sólo eran leyendas religiosas de dudosa veracidad!\
+        La ciencia se basa en hechos demostrables, ¡y él había demostrado la\
+        existencia de una Cultura Madre!</p>\
+        <p><br/></p>\
+        <p class='transient'><a href='wcap2h23'>&gt; Abandonar y hacer caso a Paola.</a></p>\
+        <p class='transient'><a href='wcap2h24'>&gt; Pulsar el cuarto glifo.</a></p>"
+    ), 
+    wcap2h23: new undum.SimpleSituation(
+        "<p>Tenía dudas. Los mitos del cristianismo heredaban de leyendas de\
+        religiones aún más antiguas. Y ¿quién afirmaría sin lugar a dudas que\
+        esas religiones no bebían de otras anteriores?</p>\
+        <p>¿Podía significar que las leyendas que han llegado hasta nuestros días\
+        a través de la religión tienen su origen en una cultura ancestral inicial?</p>\
+        <p>Decidió no pulsar el último glifo. Devolvió los otros tres a su estado anterior.</p>\
+        <p>&#8212; ¿Sabes? Creo que no merece la pena. Este planeta es un lugar\
+        lo suficientemente maravilloso como para arriesgarse a destruirlo.</p>\
+        <p>&#8212; Has hecho bien, William.&#8212; ¿Cómo demonios sabía su nombre?</p>\
+        <p>&#8212; El servicio secreto vaticano es muy eficaz.&#8212; le dijo ella\
+        al ver el gesto de su cara cuando lo llamó por su nombre.</p>\
+        <p>Pusieron rumbo al exterior. Conforme subían por la rampa, fue\
+        asimilando que había hallado su Civilización Madre: su Santo Grial.</p>\
+        <p><br/></p>\
+        <h1>*** FIN ***</h1>"
+    ), 
+    wcap2h24: new undum.SimpleSituation(
+        "<p>&#8212; ¡Leyendas para mantener al rebaño en el redil! &#8212; gritó.</p>\
+        <p>&#8212; ¡No lo hagas! &#8212; disparó su arma.</p>\
+        <p>Le dio tiempo a pulsar el cuarto glifo antes de recibir el disparo en\
+        el estómago.</p>\
+        <p>Ni siquiera le dio tiempo a sentir dolor. El desastre fue casi instantáneo.</p>\
+        <p>Sintió como una cantidad inimaginable se liberaba de la zona oscura. La\
+        montaña bajo la que se encontraban estalló en mil pedazos. La tierra y el\
+        cielo se abrieron bajo millones de temblores.</p>\
+        <p>Había iniciado el fin del mundo.</p>\
+        <p><br/></p>\
+        <h1>*** FIN ***</h1>"
+    ), 
     pcap1h1: new undum.SimpleSituation(
         "<h1>1 - La investigación</h1>"
     ),
