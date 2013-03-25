@@ -1074,8 +1074,8 @@ undum.game.situations = {
         <p class='transient'><a href='wcap2h5'>&gt; Socorrer a Austin.</a></p>"
     ),
     wcap2h4: new undum.SimpleSituation(
-        "<p>Jamás se perdonará a sí mismo haber abandonado al marine a una muerte\
-        segura.</p>\
+        "<p>Jamás se lo perdonaría a sí mismo, pero si quería salvar la vida debía\
+        abandonadar al marine a una muerte segura.</p>\
         <p>Cogió todo el equipo que pudo y corrió hacia la entrada a la cueva. Notó\
         el silbido de un par de balas pasando muy cerca de él. No quiso saber cómo\
         de cerca habían pasado. Su única esperanza de sobrevivir al francotirador\
@@ -1115,6 +1115,17 @@ undum.game.situations = {
         <p>Vió un fogonazo. Luego, silencio.</p>\
         <p><br/></p>\
         <h1>*** FIN ***</h1>"
+    ),    
+    wcap2h7: new undum.SimpleSituation(
+        "<p>Lanzó todo el equipo que tenía al alcance al interior de la cueva y, tras\
+        ello, se lanzó él mismo con un rápido movimiento.</p>\
+        <p>Estaba caido en el suelo de la cueva. Se reincorporó y esperó a que sus\
+        ojos se aclimataran a la escasa luz que entraba desde el exterior. Echó un\
+        rápido vistazo al entorno, recogió el equipo esparcido por el suelo y se\
+        adentró en la cueva por el único camino posible. No podía quedarse demasiado\
+        tiempo allí, pues el francotirador no tardaría en seguir sus pasos en cuanto\
+        se diera cuenta de que ya no estaba oculto tras las rocas.<p>\
+        <p class='transient'><a href='wcap2h8'>&gt; Continúa leyendo.</a></p>"
     ),    
     pcap1h1: new undum.SimpleSituation(
         "<h1>1 - La investigación</h1>"
