@@ -1163,6 +1163,23 @@ undum.game.situations = {
         <p class='transient'><a href='wcap2h11'>&gt; Volver a la bifurcación.</a></p>\
         <p class='transient'><a href='wcap2h12'>&gt; Descender hasta la rampa.</a></p>"
     ),   
+    wcap2h10: new undum.SimpleSituation(
+        "<p>&#8212; ¡Qué sea lo que Dios quiera! &#8212; se dijo a sí mismo mientras\
+        se adentraba en la gruta de la derecha.</p>\
+        <p>La cueva tenia una pendiente descendente, que le daba la impresión de\
+        que iba en aumento conforme avanzaba.<p>\
+        <p>El camino hacía un giro hacia la izquierda, llegando a una zona de la\
+        cueva que le llamó la atención, por lo inexplicable de sus formas.</p>\
+        <p>La gruta por la que avanzaba ahora tenía un aspecto totalmente antinatural.\
+        Las paredes y techo estaban perfectamente talladas, formando un túnel\
+        rectangular. La roca se encontraba cristalizada, como si se hubiera usado\
+        una fuente de calor extremo capaz de fundirla. Algunos tramos de pared\
+        presentaban pictogramas tallados. Se detuvo a contemplar algunos que\
+        representaban la cúpula celeste. Se podía distinguir el Sol y la Luna. Varias\
+        estrellas estaban unidas por líneas, como si se tratara de un mapa estelar.</p>\
+        <p><br/></p>\
+        <p class='transient'><a href='wcap2h26'>&gt; Continúa leyendo.</a></p>"
+    ),   
     wcap2h11: new undum.SimpleSituation(
         "<p>Decidió que valía la pena probar el otro camino, ya que el descenso en\
         vertical hasta la rampa parecía demasiado peligroso. Además, no iba a\
@@ -1173,7 +1190,7 @@ undum.game.situations = {
         <p>&laquo;¡Hostia! ¡Me han seguido hasta aquí!&raquo;.</p>\
         <p>Seguramente ya habrían visto la luz de su linterna. No había tiempo que perder.</p>\
         <p><br/></p>\
-        <p class='transient'><a href='wcap2h13'>&gt; Huir por el desconocido camino de la izquierda.</a></p>\
+        <p class='transient'><a href='wcap2h13'>&gt; Huir por el desconocido camino de la derecha.</a></p>\
         <p class='transient'><a href='wcap2h14'>&gt; Volver hasta el precipicio.</a></p>"
     ), 
     wcap2h12: new undum.SimpleSituation(
@@ -1194,7 +1211,7 @@ undum.game.situations = {
     wcap2h13: new undum.SimpleSituation(
         "<p>&laquo;¡Me cago en la puta! ¡Mierda!&raquo;. No podía volver al precipicio.\
         Si le seguían, le pillarían a medio descenso hasta la rampa, lo que sería su fin.</p>\
-        <p>Así que salió corriendo por el desconocido camino de la izquierda.<p>\
+        <p>Así que salió corriendo por el desconocido camino de la derecha.<p>\
         <p>Corría lo más rápido que le permitía el equipo que portaba. Oía también\
         la carrera de su perseguidor. ¡Le habían visto!</p>\
         <p>La gruta iba descendiendo cada vez con una pendiente mayor. Oyó un par\
@@ -1277,7 +1294,7 @@ undum.game.situations = {
         <p><br/></p>\
         <p class='transient'><a href='wcap2h19'>&gt; Continúa leyendo.</a></p>"
     ), 
-    wcap2h18: new undum.SimpleSituation(
+    wcap2h19: new undum.SimpleSituation(
         "<p>El cubo estaba perfectamente tallado en un material totalmente negro\
         y reflectante. No parecía tener impurezas de ninguna clase.</p>\
         <p>Las caras laterales estaban llenas de glifos tallados, todos diferentes\
@@ -1292,9 +1309,9 @@ undum.game.situations = {
         tenía cientos de miles de años de antigüedad, millones quizás. ¡Esa\
         maquinaria estaba fuera de lugar!</p>\
         <p><br/></p>\
-        <p class='transient'><a href='wcap2h19'>&gt; Continúa leyendo.</a></p>"
+        <p class='transient'><a href='wcap2h20'>&gt; Continúa leyendo.</a></p>"
     ), 
-    wcap2h19: new undum.SimpleSituation(
+    wcap2h20: new undum.SimpleSituation(
         "<p>Había llegado donde siempre había soñado. La evidencia de la existencia\
         de una Cultura Madre. Una cultura de la que habrían derivado todas las que\
         conocemos. ¡Era el mayor descubrimiento de la Historia!</p>\
@@ -1308,10 +1325,10 @@ undum.game.situations = {
         <p>Se centró en el doceavo grupo de combinaciones y contó la que hacía\
         veintiuno.</p>\
         <p><br/></p>\
-        <p class='transient'><a href='wcap2h20'>&gt; Pensarlo mejor.</a></p>\
-        <p class='transient'><a href='wcap2h21'>&gt; Pulsar la combinación.</a></p>"
+        <p class='transient'><a href='wcap2h21'>&gt; Pensarlo mejor.</a></p>\
+        <p class='transient'><a href='wcap2h22'>&gt; Pulsar la combinación.</a></p>"
     ), 
-    wcap2h20: new undum.SimpleSituation(
+    wcap2h21: new undum.SimpleSituation(
         "<p>&laquo;¡Un momento! ¡Imbécil!&raquo;. Cayó en la cuenta de que en meses\
         de treinta días, el 21 de diciembre no es el vigesimo primer día del\
         doceavo mes.</p>\
@@ -1326,9 +1343,9 @@ undum.game.situations = {
         <p>&#8212; ¡Quieto! &#8212; una mujer, morena y atlética le apuntaba con\
         un arma.</p>\
         <p><br/></p>\
-        <p class='transient'><a href='wcap2h22'>&gt; Continúa leyendo.</a></p>"
+        <p class='transient'><a href='wcap2h23'>&gt; Continúa leyendo.</a></p>"
     ),
-    wcap2h21: new undum.SimpleSituation(
+    wcap2h22: new undum.SimpleSituation(
         "<p>Localizó los cuatro glifos y comenzó a pulsarlos en el orden en el\
         que estaban en el calendario.</p>\
         <p>No ocurrió nada.</p>\
@@ -1346,9 +1363,9 @@ undum.game.situations = {
         <p>&#8212; ¡Quieto! &#8212; una mujer, morena y atlética le apuntaba con\
         un arma.</p>\
         <p><br/></p>\
-        <p class='transient'><a href='wcap2h22'>&gt; Continúa leyendo.</a></p>"
+        <p class='transient'><a href='wcap2h23'>&gt; Continúa leyendo.</a></p>"
     ), 
-    wcap2h22: new undum.SimpleSituation(
+    wcap2h23: new undum.SimpleSituation(
         "<p>&#8212; ¿Quién eres? ¿Por qué tratas de matarme? &#8212; Estaba aterrado.</p>\
         <p>&#8212; Debo evitar que abras la caja. &#8212; Era bastante atractiva.</p>\
         <p>&#8212; ¿Qué caja? ¡Estás ante el mayor descubrimiento de la Historia!\
@@ -1390,10 +1407,10 @@ undum.game.situations = {
         La ciencia se basa en hechos demostrables, ¡y él había demostrado la\
         existencia de una Cultura Madre!</p>\
         <p><br/></p>\
-        <p class='transient'><a href='wcap2h23'>&gt; Abandonar y hacer caso a Paola.</a></p>\
-        <p class='transient'><a href='wcap2h24'>&gt; Pulsar el cuarto glifo.</a></p>"
+        <p class='transient'><a href='wcap2h24'>&gt; Abandonar y hacer caso a Paola.</a></p>\
+        <p class='transient'><a href='wcap2h25'>&gt; Pulsar el cuarto glifo.</a></p>"
     ), 
-    wcap2h23: new undum.SimpleSituation(
+    wcap2h24: new undum.SimpleSituation(
         "<p>Tenía dudas. Los mitos del cristianismo heredaban de leyendas de\
         religiones aún más antiguas. Y ¿quién afirmaría sin lugar a dudas que\
         esas religiones no bebían de otras anteriores?</p>\
@@ -1410,7 +1427,7 @@ undum.game.situations = {
         <p><br/></p>\
         <h1>*** FIN ***</h1>"
     ), 
-    wcap2h24: new undum.SimpleSituation(
+    wcap2h25: new undum.SimpleSituation(
         "<p>&#8212; ¡Leyendas para mantener al rebaño en el redil! &#8212; gritó.</p>\
         <p>&#8212; ¡No lo hagas! &#8212; disparó su arma.</p>\
         <p>Le dio tiempo a pulsar el cuarto glifo antes de recibir el disparo en\
@@ -1418,11 +1435,65 @@ undum.game.situations = {
         <p>Ni siquiera le dio tiempo a sentir dolor. El desastre fue casi instantáneo.</p>\
         <p>Sintió como una cantidad inimaginable se liberaba de la zona oscura. La\
         montaña bajo la que se encontraban estalló en mil pedazos. La tierra y el\
-        cielo se abrieron bajo millones de temblores.</p>\
+        cielo se resquebrajaron bajo millones de temblores.</p>\
         <p>Había iniciado el fin del mundo.</p>\
         <p><br/></p>\
         <h1>*** FIN ***</h1>"
     ), 
+    wcap2h26: new undum.SimpleSituation(
+        "<p>&#8212; ¡Esto cambiará la concepción de nuestra Historia! &#8212; se dijo.</p>\
+        <p>Siguió el camino descendente, hasta que se detuvo ante un nuevo\
+        descubrimiento.<p>\
+        <p>Se encontraba ante una serie de pulcros y cuidados enterramientos. En\
+        ellos, podía ver restos de esqueletos humanoides de huesos finos, de menos de metro\
+        y medio de altura y cabezas desproporcionadamente grandes.</p>\
+        <p>Dejó allí los cuerpos. No podía quedarse a estudiarlos todo lo que\
+        quisiera. Le estaban siguiendo.</p>\
+        <p><br/></p>\
+        <p class='transient'><a href='wcap2h27'>&gt; Continúa leyendo.</a></p>"
+    ),   
+    wcap2h27: new undum.SimpleSituation(
+        "<p>Caminó unos cientos de metros antes de llegar a una cavidad inmensa. Tan\
+        grande era, que la luz de la linterna no llegaba a iluminar ninguno de los\
+        lados.<p>\
+        <p>La gruta terminaba allí, en una rampa que se adentraba en la oscuridad\
+        de la gigantesca sala. No podía ver más allá de unos metros, así que no\
+        podía averiguar dónde se estaba metiendo.</p>\
+        <p>¿Sería el otro camino más seguro?</p>\
+        <p><br/></p>\
+        <p class='transient'><a href='wcap2h28'>&gt; Volver a la bifurcación.</a></p>\
+        <p class='transient'><a href='wcap2h17'>&gt; Descender por la rampa.</a></p>"
+    ),   
+    wcap2h28: new undum.SimpleSituation(
+        "<p>Decidió que valía la pena probar el otro camino. Además, no iba a\
+        averiguar qué había más allá de la rampa hasta que no hubiera descendido\
+        por ella, lo que podría ser demasiado tarde.</p>\
+        <p>Retrocedió sobre sus pasos y, cuando estaba a punto de llegar de nuevo\
+        a la bifurcación, pudo ver una luz que se acercaba.<p>\
+        <p>&laquo;¡Hostia! ¡Me han seguido hasta aquí!&raquo;.</p>\
+        <p>Seguramente ya habrían visto la luz de su linterna. No había tiempo que perder.</p>\
+        <p><br/></p>\
+        <p class='transient'><a href='wcap2h29'>&gt; Huir por el desconocido camino de la izquierda.</a></p>\
+        <p class='transient'><a href='wcap2h30'>&gt; Volver hasta el precipicio.</a></p>"
+    ), 
+    wcap2h29: new undum.SimpleSituation(
+        "<p>&laquo;¡Me cago en la puta! ¡Mierda!&raquo;.</p>\
+        <p>Se adentró corriendo por el desconocido camino de la izquierda.<p>\
+        <p>Corría lo más rápido que le permitía el equipo que portaba. Oía también\
+        la carrera de su perseguidor. ¡Le habían visto!</p>\
+        <p>La gruta iba descendiendo cada vez con una pendiente mayor. Oyó un par\
+        de disparos, que se estrellaron en las paredes de roca bastante lejos de\
+        él, afortunadamente. No podía permitirse aminorar la marcha.</p>\
+        <p><br/></p>\
+        <p class='transient'><a href='wcap2h15'>&gt; Continúa leyendo.</a></p>"
+    ), 
+    wcap2h30: new undum.SimpleSituation(
+        "<p>&laquo;¡Me cago en la puta! ¡Mierda!&raquo;. No podía arriesgarse a\
+        correr a ciegas por un camino que no había explorado. Así que volvió corriendo\
+        por la gruta, dispuesto a descender por la rampa.</p>\
+        <p><br/></p>\
+        <p class='transient'><a href='wcap2h17'>&gt; Continúa leyendo.</a></p>"
+    ),     
     pcap1h1: new undum.SimpleSituation(
         "<h1>1 - La investigación</h1>"
     ),
