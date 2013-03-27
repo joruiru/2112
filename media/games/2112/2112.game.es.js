@@ -1005,7 +1005,7 @@ undum.game.situations = {
         misma inscripción que se podía encontrar en la denominada tumba del\
         astronauta de Palenque.</p>\
         <p><br/></p>\
-        <p class='transient'><a href='wcap2h1'>&gt; Ir al capítulo 2.</a></p>"
+        <p class='transient'><a href='wcap2h31'>&gt; Ir al capítulo 2.</a></p>"
     ),
     wcap2h1: new undum.SimpleSituation(
         "<h1>2 - El Fin</h1>\
@@ -1494,6 +1494,27 @@ undum.game.situations = {
         <p><br/></p>\
         <p class='transient'><a href='wcap2h17'>&gt; Continúa leyendo.</a></p>"
     ),     
+    wcap2h31: new undum.SimpleSituation(
+        "<h1>2 - El Fin</h1>\
+        <p>&#8212;¡Vamos!¡Un poco más! ¡Ya falta poco!</p>\
+        <p>El que le gritaba era Austin, un marine del ejército que le habían puesto\
+        de guardaespaldas. ¿Por qué iba a tener que necesitar un guardaespaldas\
+        en aquella región remota e inhabitada del planeta? A pesar de sus quejas,\
+        no le hicieron caso. Los tecnócratas del gobierno quizás temían que\
+        descubriera algo que no les gustara.</p>\
+        <p>Notó un último tirón a la cuerda que le rodeaba la cintura y consiguió\
+        llegar, por fin, al lugar donde estaba el gigantesco marine. Estaba empezando\
+        a creer que, al fin y al cabo, no era tan mala idea tenerlo cerca.<p>\
+        <p> Levantó la vista, una vez había recuperado el aliento y se había liberado\
+        de la cuerda que le ataba. Allí, la nieve les llegaba hasta casi las rodillas\
+        lo que hacía que cada paso que daba fuera un auténtico suplicio.</p>\
+        <p>&#8212;Creo que hemos llegado. La entrada a las cuevas debe estar tras\
+        aquellas rocas. &#8212; informó al marine tras comprobar sus notas.</p>\
+        <p>&#8212;Está bien. Vaya a buscar la entrada mientras recojo el equipo.</p>\
+        <p><br/></p>\
+        <p class='transient'><a href='wcap2h2'>&gt; Buscar la entrada a las cuevas.</a></p>\
+        <p class='transient'><a href='wcap2h3'>&gt; Ayudar a Austin a recoger el equipo.</a></p>"
+    ),
     pcap1h1: new undum.SimpleSituation(
         "<h1>1 - La investigación</h1>"
     ),
