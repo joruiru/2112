@@ -1305,7 +1305,7 @@ undum.game.situations = {
         <p>&laquo;¡Era un calendario! ¡Doce meses de treinta días y un treceavo de\
         cinco! ¡Trescientos sesenta y cinco días!&raquo;.</p>\
         <p>Se encontraba ante el panel de control de alguna maquinaria. ¡O tal vez\
-        algo que desactivara la negrura y mostrase lo que oculta! Pero, la cueva\
+        algo que desactivara la negrura y mostrase lo que ocultaba! Pero, la cueva\
         tenía cientos de miles de años de antigüedad, millones quizás. ¡Esa\
         maquinaria estaba fuera de lugar!</p>\
         <p><br/></p>\
@@ -1330,7 +1330,7 @@ undum.game.situations = {
     ), 
     wcap2h21: new undum.SimpleSituation(
         "<p>&laquo;¡Un momento! ¡Imbécil!&raquo;. Cayó en la cuenta de que en meses\
-        de treinta días, el 21 de diciembre no es el vigesimo primer día del\
+        de treinta días, el 21 de diciembre no es el vigésimo primer día del\
         doceavo mes.</p>\
         <p>En un año de trescientos sesenta y cinco días, el 21 de diciembre era\
         el undécimo día contando desde el último día del año.<p>\
@@ -1387,7 +1387,7 @@ undum.game.situations = {
         salvo tú, yo y el Papa. Dice que hoy y aquí, se abrirá la caja que fue\
         sellada y ocultada desde los inicios de los tiempos: la caja de Pandora.&#8212;.</p>\
         <p>&#8212; ¡Eso son leyendas! Y, he de añadir, que no exclusivas del\
-        cristianismo.&#8212;.</p>\
+        cristianismo.</p>\
         <p>&#8212; ¿Estás seguro de lo que dices? ¡Mirá los glifos que has marcado!\
         ¡No son iguales, pero se parecen mucho al arameo antiguo! ¡Mira ese! &#8212;\
         señaló al primero que había pulsado.</p>\
@@ -1496,25 +1496,332 @@ undum.game.situations = {
     ),     
     wcap2h31: new undum.SimpleSituation(
         "<h1>2 - El Fin</h1>\
-        <p>&#8212;¡Vamos!¡Un poco más! ¡Ya falta poco!</p>\
-        <p>El que le gritaba era Austin, un marine del ejército que le habían puesto\
-        de guardaespaldas. ¿Por qué iba a tener que necesitar un guardaespaldas\
-        en aquella región remota e inhabitada del planeta? A pesar de sus quejas,\
-        no le hicieron caso. Los tecnócratas del gobierno quizás temían que\
-        descubriera algo que no les gustara.</p>\
-        <p>Notó un último tirón a la cuerda que le rodeaba la cintura y consiguió\
-        llegar, por fin, al lugar donde estaba el gigantesco marine. Estaba empezando\
-        a creer que, al fin y al cabo, no era tan mala idea tenerlo cerca.<p>\
-        <p> Levantó la vista, una vez había recuperado el aliento y se había liberado\
-        de la cuerda que le ataba. Allí, la nieve les llegaba hasta casi las rodillas\
-        lo que hacía que cada paso que daba fuera un auténtico suplicio.</p>\
-        <p>&#8212;Creo que hemos llegado. La entrada a las cuevas debe estar tras\
-        aquellas rocas. &#8212; informó al marine tras comprobar sus notas.</p>\
-        <p>&#8212;Está bien. Vaya a buscar la entrada mientras recojo el equipo.</p>\
+        <p>&#8212; ¡Ya falta poco!</p>\
+        <p>El que le animaba era Austin, un marine del ejército que le habían puesto\
+        de guardaespaldas. ¿Por qué iba a tener que necesitar un guardaespaldas?\
+        A pesar de sus quejas, no le hicieron caso. Los tecnócratas del gobierno\
+        quizás temían que descubriera algo que no les gustara.</p>\
+        <p>Apartaron unos arbustos y la ciudad apareció ante ellos.<p>\
+        <p>Palenque era uno de los sitios más impresionantes de la cultura maya.\
+        En comparación con otras ciudades mayas, se considera de tamaño mediano,\
+        menor que Tikal o Copán. Sin embargo, es la más enigmática de todas.</p>\
+        <p>&#8212; Contempla las maravillas de Palenque. Hay más de mil quinientos\
+        edificios en esa zona, de los cuáles solo se han excavado apenas el 15%.\
+        &#8212; informó al marine.</p>\
+        <p>La ciudad estaba desierta cuando llegaron. El gobierno había declarado\
+        una zona de exclusión en unos kilómetros a la redonda para evitar la presencia\
+        de turistas. El motivo: un helicóptero con productos tóxicos se había\
+        estrellado en la zona. No reparaban en gastos.</p>\
+        <p>&#8212;¿Por dónde empezamos a buscar, profesor?&#8212; preguntó el marine.</p>\
         <p><br/></p>\
-        <p class='transient'><a href='wcap2h2'>&gt; Buscar la entrada a las cuevas.</a></p>\
-        <p class='transient'><a href='wcap2h3'>&gt; Ayudar a Austin a recoger el equipo.</a></p>"
+        <p class='transient'><a href='wcap2h32'>&gt; Buscar en el Templo de las Inscripciones.</a></p>\
+        <p class='transient'><a href='wcap2h33'>&gt; Buscar en el Templo de la Cruz.</a></p>\
+        <p class='transient'><a href='wcap2h34'>&gt; Buscar en el Palacio.</a></p>"
     ),
+    wcap2h31: new undum.SimpleSituation(
+        "<p>El Templo de las Inscripciones era un templo que se hallaba sobre una\
+        pirámide escalonada de nueve alturas, representando el inframundo. El templo\
+        disponía de cinco entradas, número que se asociaba a la Tierra. Coronando\
+        la estructura, había estado la crestería, que representaba el Cielo.</p>\
+        <p>&#8212; Tiene este nombre por tres tableros de roca con inscripciones\
+        jeroglíficas, que detallan la historia de la dinastía regente en la ciudad\
+        y los hechos de Pakal el Grande. &#8212; Austin no mostró demasiado interés\
+        en su explicación.</p>\
+        <p>Entraron en el templo y comenzaron a buscar el glifo que había descubierto\
+        al estudiar el códice maya.</p>\
+        <p>Tras una losa del suelo, con agujeros simétricamente distribuidos para\
+        poder ser colocada en su lugar correspondiente, se encontraba la escalinata\
+        que descendía hasta la tumba de Pakal.<p>\
+        <p>Bajaron por la escalinata unos veinticinco metros y llegaron a la cripta.\
+        Era una sala de unos nueve por cuatro metros, con el techo abovedado a unos\
+        siete metros de altura. Justo en el centro se encontraba el sarcófago de\
+        piedra, donde se descubrió el cuerpo del señor de Pakal. Y allí mismo, encima\
+        del sarcófago, se encontraba la losa de piedra decorada con uno de los\
+        misterios más grandes de la arqueología: el astronauta de Palenque.</p>\
+        <p>Se podía ver claramente la representación de un hombre con atuendo maya,\
+        en una posición semiacostada en una especie de silla con cinturón de seguridad,\
+        con los pies apoyados en unos pedales, controles al frente y una gran\
+        cantidad de tornillos, resortes, caños, tableros y palancas de mando. En\
+        la nariz de Pakal se podía ver una especie de aparato que serviría como\
+        respirador y cumpliría la función del casco de un astronauta. En la parte\
+        trasera del vehículo se distinguían claramente las llamas producidas por\
+        las toberas de la nave.</p>\
+        <p>&#8212;Es impresionante, ¿verdad?&#8212; el marine alucinaba. &#8212;Esa\
+        losa fue esculpida hace casi mil cuatrocientos años.</p>\
+        <p>Buscaron en todas las inscripciones el glifo del códice, pero no tuvieron\
+        ningún éxito.</p>\
+        <p><br/></p>\
+        <p class='transient'><a href='wcap2h34'>&gt; Buscar en el Templo de la Cruz.</a></p>\
+        <p class='transient'><a href='wcap2h35'>&gt; Buscar en el Palacio.</a></p>"
+    ),
+    wcap2h32: new undum.SimpleSituation(
+        "<p>El Templo de la Cruz era un templo que se hallaba sobre una\
+        pirámide escalonada. Conservaba todavía la crestería coronándolo.</p>\
+        <p>&#8212; Este templo conmemora el ascenso al trono del señor Chan Bahlum\
+        II tras la muerte de Pakal el Grande. &#8212; Austin no mostró demasiado interés\
+        en su explicación.</p>\
+        <p>Entraron en el templo y comenzaron a buscar el glifo que había descubierto\
+        al estudiar el códice maya.</p>\
+        <p>La cruz a la que aludía el nombre del templo era una representación\
+        del árbol de la creación de la mitología maya. Sobre la cruz, y flanqueada\
+        por dos figuras humanas, se encuentra posada el ave Quetzal.</p>\
+        <p>Buscaron en todas las inscripciones el glifo del códice, pero no tuvieron\
+        ningún éxito.</p>\
+        <p><br/></p>\
+        <p class='transient'><a href='wcap2h36'>&gt; Buscar en el Templo de las Inscripciones.</a></p>\
+        <p class='transient'><a href='wcap2h35'>&gt; Buscar en el Palacio.</a></p>"
+    ),
+    wcap2h33: new undum.SimpleSituation(
+        "<p>El Palacio era, más que un edificio, un complejo de ellos. Debía\
+        su nombre a la conjunción de patios, crujías y a la torre de cuatro cuerpos\
+        que lo caracterizaba.</p>\
+        <p>Se encontraba en la parte central del yacimiento arqueológico de Palenque,\
+        sobre una terraza artificial.</p>\
+        <p>Entraron en el conjunto de edificios y comenzaron a buscar el glifo que\
+        había descubierto al estudiar el códice maya.</p>\
+        <p>Buscaron en todas las esculturas y bajorrelieves, pero no tuvieron\
+        ningún éxito.</p>\
+        <p><br/></p>\
+        <p class='transient'><a href='wcap2h34'>&gt; Buscar en el Templo de la Cruz.</a></p>\
+        <p class='transient'><a href='wcap2h36'>&gt; Buscar en el Templo de las Inscripciones.</a></p>"
+    ),
+    wcap2h34: new undum.SimpleSituation(
+        "<p>&#8212; Aquí no está. Salgamos y probemos en el Templo de la Cruz.</p>\
+        <p>Al salir al exterior, había empezado a anochecer. Habían pasado en\
+        el interior más horas de las que creía. Austin se adelantó con el equipo,\
+        mientras William se quedó para dar un último vistazo, por si acaso se le\
+        había pasado algo por alto.</p>\
+        <p>Se dio la vuelta y siguió el camino que había emprendido el marine.</p>\
+        <p><br/></p>\
+        <p class='transient'><a href='wcap2h37'>&gt; Continúa leyendo.</a></p>"
+    ),
+    wcap2h35: new undum.SimpleSituation(
+        "<p>&#8212; Aquí no está. Salgamos y probemos en el Palacio.</p>\
+        <p>Al salir al exterior, había empezado a anochecer. Habían pasado en\
+        el interior más horas de las que creía. Austin se adelantó con el equipo,\
+        mientras William se quedó para dar un último vistazo, por si acaso se le\
+        había pasado algo por alto.</p>\
+        <p>Se dio la vuelta y siguió el camino que había emprendido el marine.</p>\
+        <p><br/></p>\
+        <p class='transient'><a href='wcap2h37'>&gt; Continúa leyendo.</a></p>"
+    ),
+    wcap2h36: new undum.SimpleSituation(
+        "<p>&#8212; Aquí no está. Salgamos y probemos en el Templo de las Inscripciones.</p>\
+        <p>Al salir al exterior, había empezado a anochecer. Habían pasado en\
+        el interior más horas de las que creía. Austin se adelantó con el equipo,\
+        mientras William se quedó para dar un último vistazo, por si acaso se le\
+        había pasado algo por alto.</p>\
+        <p>Se dio la vuelta y siguió el camino que había emprendido el marine.</p>\
+        <p><br/></p>\
+        <p class='transient'><a href='wcap2h37'>&gt; Continúa leyendo.</a></p>"
+    ),
+    wcap2h37: new undum.SimpleSituation(
+        "<p>Fue entonces cuando lo vio. Ni siquiera le dio tiempo a gritar para\
+        avisar a su compañero. De uno de las construcciones, salió un fogonazo al\
+        que siguió el sonido de un disparo. El marine cayó al suelo desplomado.</p>\
+        <p>Se echó al suelo, protegido tras las ruinas que tenía cerca. El corazón\
+        le latía a tal velocidad que tenía la sensación de que se le iba a escapar\
+        del pecho. Oyó un segundo disparo, éste más cercano a su posición. Había\
+        dado en la piedra que le protegía. Tenía que pensar con rapidez.</p>\
+        <p><br/></p>\
+        <p class='transient'><a href='wcap2h38'>&gt; Correr hacia la selva.</a></p>\
+        <p class='transient'><a href='wcap2h39'>&gt; Socorrer a Austin.</a></p>"
+    ),
+    wcap2h38: new undum.SimpleSituation(
+        "<p>Jamás se lo perdonaría a sí mismo, pero si quería salvar la vida debía\
+        abandonadar al marine a una muerte segura.</p>\
+        <p>Cogió todo el equipo que pudo y corrió hacia los árboles. Notó\
+        el silbido de un par de balas pasando muy cerca de él. No quiso saber cómo\
+        de cerca habían pasado. Su única esperanza de sobrevivir al francotirador\
+        era alcanzar la protección de la selva.<p>\
+        <p><br/></p>\
+        <p class='transient'><a href='wcap2h41'>&gt; Continúa leyendo.</a></p>"
+    ),
+    wcap2h39: new undum.SimpleSituation(
+        "<p>¡No podía dejar al marine allí herido!</p>\
+        <p>Intentó incorporarse para correr hacia donde estaba el cuerpo de Austin\
+        pero nada más asomar la cabeza, recibió un disparo que, por suerte, dio en\
+        la roca.<p>\
+        <p>Volvió a intentarlo, con el mismo resultado. ¿Qué podía hacer? ¿Abandonar al\
+        marine a una muerte segura y buscar la protección de la selva o intentar\
+        socorrerlo una vez más?</p>\
+        <p><br/></p>\
+        <p class='transient'><a href='wcap2h38'>&gt; Correr hacia la selva.</a></p>\
+        <p class='transient'><a href='wcap2h40'>&gt; Socorrer a Austin.</a></p>"
+    ),
+    wcap2h40: new undum.SimpleSituation(
+        "<p>Jamás se perdonaría a sí mismo haber abandonado al marine a una muerte\
+        segura.</p>\
+        <p>Miró a su alrededor a ver si se le ocurría algo. Cogió una piedra y la\
+        lanzó hacía unas ruinas en la dirección opuesta a la que se encontraba Austin.</p>\
+        <p>Escuchó unos disparos dirigidos hacia donde había caido la piedra. Era la\
+        señal. ¡Había funcionado!</p>\
+        <p>Se incorporó y salió corriendo lo más rápido que pudo hacia el marine.\
+        Lamentablemente, se dio cuenta tarde de que jamás alcanzaría a tiempo su\
+        objetivo.</p>\
+        <p>Oyó un disparo a su espalda. Inmeditamente, un dolor inmenso en el muslo\
+        de su pierna derecha. Se desplomó sobre la nieve y pudo ver como un río\
+        rojo se extendía por el suelo.</p>\
+        <p>A pesar de tener la vista nublada, pudo distinguir a una mujer morena,\
+        de aspecto atlético, que se le acercaba apuntándole con un arma.</p>\
+        <p>Se detuvo cuando llegó junto a él, sin dejar de apuntarle a la cabeza</p>\
+        <p>&#8212; Lo siento, pero no puedo permitir que nadie se me adelante. Que\
+        Dios me perdone.</p>\
+        <p>Vió un fogonazo. Luego, silencio.</p>\
+        <p><br/></p>\
+        <h1>*** FIN ***</h1>"
+    ),    
+    wcap2h41: new undum.SimpleSituation(
+        "<p>Lanzó todo el equipo que tenía al alcance hacia la selva y, tras\
+        ello, se lanzó él mismo con un rápido movimiento.</p>\
+        <p>Cayó rodando varias decenas de metros, hasta que se detuvo al chocar\
+        contra una losa que estaba oculta entre la vegetación. Se reincorporó y\
+        esperó a que sus ojos se aclimataran a la escasa luz. No podía quedarse demasiado\
+        tiempo allí, pues el francotirador no tardaría en seguir sus pasos en cuanto\
+        se diera cuenta de que ya no estaba oculto tras las ruinas.<p>\
+        <p><br/></p>\
+        <p class='transient'><a href='wcap2h42'>&gt; Continúa leyendo.</a></p>"
+    ),  
+    wcap2h42: new undum.SimpleSituation(
+        "<p>Mientras recogía el equipo que estaba esparcido por el suelo, llamó\
+        su atención la losa con la que había chocado en su caida. ¡Era una réplica\
+        de la que tapaba la tumba de Pakal en el Templo de las Inscripciones!</p>\
+        <p>Se podía ver claramente la representación de Pakal en una posición\
+        semiacostada, con los cabellos ingrávidos, en una especie de silla con\
+        cinturón de seguridad, los pies apoyados en unos pedales y una gran\
+        cantidad de resortes, y palancas de mando. En la nariz de Pakal se podía\
+        ver una especie de aparato que serviría como respirador. En la parte\
+        trasera del vehículo se distinguían claramente las llamas producidas por\
+        las toberas de la nave.</p>\
+        <p>Sin embargo, esta representación del llamado &laquo;Astronauta de\
+        Palenque&raquo; difería de la hallada en la tumba de Pakal. En la parte\
+        delantera de la nave se encontraba grabado el glifo que había venido a\
+        buscar.</p>\
+        <p>&laquo;¡Es una señal!&raquo;</p>\
+        <p><br/></p>\
+        <p class='transient'><a href='wcap2h43'>&gt; Continúa leyendo.</a></p>"
+    ),  
+    wcap2h43: new undum.SimpleSituation(
+        "<p>Comenzó a registrar los alrededores de la losa, removiendo la\
+        abundante vegetación que lo invadía todo.</p>\
+        <p>No tardó demasiado en encontrarla. No muy lejos de donde estaba la\
+        losa, había otra semienterrada. Ésta contenía una serie de agujeros\
+        simétricamente distribuidos por la superficie, sin duda colocados para que\
+        pudiera ser movida pasando cuerdas a través de ellos.</p>\
+        <p>Sacó una cuerda del equipo que llevaba y la pasó por los orificios.\
+        La piedra pesaba más de lo que había imaginado, pero tras varios intentos\
+        estériles y usando el tronco de un árbol a modo de polea, pudo moverla.</p>\
+        <p>La piedra desveló unas escaleras que descendían por un estrecho pasadizo\
+        hacia la oscuridad.</p>\
+        <p><br/></p>\
+        <p class='transient'><a href='wcap2h44'>&gt; Seguir huyendo por la selva.</a></p>\
+        <p class='transient'><a href='wcap2h45'>&gt; Descender por las escaleras.</a></p>"
+    ),  
+    wcap2h44: new undum.SimpleSituation(
+        "<p>El pasadizo podía ser demasiado peligroso. Si se adentraba en él, no\
+        podría, desde dentro, volver a dejar la piedra en su sitio, y el francotirador\
+        sabría que tendría que seguirlo por allí.</p>\
+        <p>Volvió a tapar el pasadizo, para ocultarlo y volver otro día, con más\
+        protección y lejos de poner su vida en peligro. Recogió el equipo y se\
+        adentró más en la selva.</p>\
+        <p>Al cabo de unas horas llegó a un camino local. Continuó avanzando\
+        y ya había amanecido cuando encontró una de las patrullas del ejército\
+        que aseguraban la zona de exclusión.</p>\
+        <p>Estaba a salvo.</p>\
+        <p><br/></p>\
+        <h1>*** FIN ***</h1>"
+    ),    
+    wcap2h45: new undum.SimpleSituation(
+        "<p>&#8212; ¡Qué sea lo que Dios quiera! &#8212; se dijo a sí mismo mientras\
+        se adentraba en el pasadizo.</p>\
+        <p>La escalera hacía un giro hacia la izquierda, llegando a una zona donde\
+        las paredes y techo estaban perfectamente talladas, formando un túnel\
+        rectangular. La roca se encontraba cristalizada, como si se hubiera usado\
+        una fuente de calor extremo capaz de fundirla. Algunos tramos de pared\
+        presentaban pictogramas tallados. Se detuvo a contemplar algunos que\
+        representaban la cúpula celeste. Se podía distinguir el Sol y la Luna. Varias\
+        estrellas estaban unidas por líneas, como si se tratara de un mapa estelar.</p>\
+        <p><br/></p>\
+        <p class='transient'><a href='wcap2h46'>&gt; Continúa leyendo.</a></p>"
+    ),   
+    wcap2h46: new undum.SimpleSituation(
+        "<p>&#8212; ¡Esto cambiará la concepción de nuestra Historia! &#8212; se dijo.</p>\
+        <p>Siguió el camino descendente, hasta que se detuvo ante un nuevo\
+        descubrimiento.<p>\
+        <p>Tallados en tres losas de piedra, había cientos de glifos. Lo más\
+        interesante de todo, es que contaban la historia de cómo el señor Pakal\
+        había llegado a la Tierra desde las estrellas y cómo debía volver a ellas.</p>\
+        <p>Oyó unos ruidos tras él, y vio los reflejos de luz de una linterna. No\
+        podía quedarse a estudiar los jerogíficos. Tenía que salir deprisa de allí.\
+        Le estaban siguiendo.</p>\
+        <p><br/></p>\
+        <p class='transient'><a href='wcap2h47'>&gt; Continúa leyendo.</a></p>"
+    ),   
+    wcap2h47: new undum.SimpleSituation(
+        "<p>Caminó unos cientos de metros antes de llegar a una cavidad inmensa. Tan\
+        grande era, que la luz de la linterna no llegaba a iluminar ninguno de los\
+        lados.<p>\
+        <p>La escalera terminaba allí, en una rampa que se adentraba en la oscuridad\
+        de la gigantesca sala. No podía ver más allá de unos metros, así que no\
+        podía averiguar dónde se estaba metiendo.</p>\
+        <p><br/></p>\
+        <p class='transient'><a href='wcap2h48'>&gt; Continúa leyendo.</a></p>"
+    ),   
+    wcap2h48: new undum.SimpleSituation(
+        "<p>La rampa estaba perfectamente tallada y descendía con una pendiente\
+        constante, siguiendo la curva que iba describiendo la pared de la sala.</p>\
+        <p>No cayó en la cuenta hasta que hubo descendido varios cientos de metros\
+        por la rampa.<p>\
+        <p>Si alumbraba con la linterna hacia el centro de la sala, la distancia\
+        de alumbrado era mucho menor de la que debería ser. Lo mismo ocurría si\
+        se acercaba al borde de la rampa y alumbraba hacía abajo. Sin embargo, si\
+        alumbraba el camino que le quedaba por delante, la distancia\
+        que alcanzaba la luz era la que se podía esperar.</p>\
+        <p>¿Qué podía estar causando ese extraño efecto? Sólo se le ocurría una\
+        cosa que pudiera producir ese efecto sobre la luz: los agujeros negros.\
+        Pero eso no era posible.</p>\
+        <p>Continuó descendiendo.</p>\
+        <p><br/></p>\
+        <p class='transient'><a href='wcap2h49'>&gt; Continúa leyendo.</a></p>"
+    ), 
+    wcap2h49: new undum.SimpleSituation(
+        "<p>Descendió durante horas por la rampa. No sabría calcular a qué\
+        profundidad se podría encontrar. De repente, la linterna iluminó, unos\
+        metros más adelante, un suelo de roca sin pendiente. ¡Había llegado al\
+        final de la rampa!</p>\
+        <p>Exhausto, se descargó de todo el equipo y se sentó en el suelo, apoyado\
+        en la pared, para descansar.<p>\
+        <p>Mientras recobraba poco a poco el aliento, iluminó alrededor para otear\
+        la sala en la que se encontraba. Era inmensa. Jamás podría haber imaginado\
+        siquiera que pudiera existir semejante cavidad en el subsuelo.</p>\
+        <p>La innatural negrura que ocupaba todo el centro de la sala seguía allí,\
+        incluso a nivel del suelo, aunque no parecía que fuese nada. Simplemente,\
+        la luz se quedaba atrapada en ella.</p>\
+        <p>Enfocó la linterna hacia un monolito que llamó su atención.</p>\
+        <p>Era la única estructura que había allí, a parte de lo que demonios fuera\
+        la negra parte central de la sala. Tenía aproximadamente medio metro de\
+        alto, y era un cubo perfecto. Se levantó para acercarse a examinarlo.</p>\
+        <p><br/></p>\
+        <p class='transient'><a href='wcap2h50'>&gt; Continúa leyendo.</a></p>"
+    ), 
+    wcap2h50: new undum.SimpleSituation(
+        "<p>El cubo estaba perfectamente tallado en un material totalmente negro\
+        y reflectante. No parecía tener impurezas de ninguna clase.</p>\
+        <p>Las caras laterales estaban llenas de glifos tallados, todos diferentes\
+        entre sí, que le dieron la impresión de ser pulsadores. En la cara superior,\
+        había múltiples combinaciones de cuatro glifos, ninguna repetida, agrupados\
+        en doce grupos de treinta combinaciones. Había un treceavo grupo con cinco\
+        combinaciones, también de cuatro glifos cada una.<p>\
+        <p>&laquo;¡Era un calendario! ¡Doce meses de treinta días y un treceavo de\
+        cinco! ¡Trescientos sesenta y cinco días!&raquo;.</p>\
+        <p>Se encontraba ante el panel de control de alguna maquinaria. ¡O tal vez\
+        algo que desactivara la negrura y mostrase lo que ocultaba! Pero, la cueva\
+        tenía cientos de miles de años de antigüedad, millones quizás. ¡Y nadie\
+        había estado allí en, al menos, mil cuatrocientos años! ¡Esa\
+        maquinaria estaba fuera de lugar!</p>\
+        <p><br/></p>\
+        <p class='transient'><a href='wcap2h20'>&gt; Continúa leyendo.</a></p>"
+    ), 
     pcap1h1: new undum.SimpleSituation(
         "<h1>1 - La investigación</h1>"
     ),
