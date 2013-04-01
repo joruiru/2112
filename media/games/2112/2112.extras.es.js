@@ -1431,7 +1431,7 @@ undum.game.situations = {
         <p><br/></p>\
         <h1>*** FIN ***</h1>\
         <p><br/></p>\
-        <a href='extras.html' class='sticky'>&gt; Ver extras</a>"
+        <a href='file://extras.html' class='sticky'>&gt; Ver extras</a>"
     ), 
     wcap2h25: new undum.SimpleSituation(
         "<p>&#8212; ¡Leyendas para mantener al rebaño en el redil! &#8212; gritó.</p>\
@@ -1446,7 +1446,7 @@ undum.game.situations = {
         <p><br/></p>\
         <h1>*** FIN ***</h1>\
         <p><br/></p>\
-        <a href='extras.html' class='sticky'>&gt; Ver extras</a>"
+        <a href='http://extras.html' class='sticky'>&gt; Ver extras</a>"
     ), 
     wcap2h26: new undum.SimpleSituation(
         "<p>&#8212; ¡Esto cambiará la concepción de nuestra Historia! &#8212; se dijo.</p>\
@@ -2177,35 +2177,15 @@ undum.game.situations = {
         "<h1>1 - La investigación</h1>\
         <p><br/></p>\
         <h1>*** PROXIMAMENTE ***</h1>"
-    ),
-    "last": new undum.SimpleSituation(
-        "<h1>Where to Go Now</h1>\
-        <p>So that's it. We've covered all of Undum. This situation is the\
-        end, because it has no further links. The 'The End' message is\
-        just in the HTML output of this situation, it isn't anything special\
-        to Undum</p>\
-        \
-        <p>I've added an\
-        inspiration quality to your character list. Its time for you to\
-        crack open the game file and write your own story.</p>\
-        <h1>The End</h1>",
-        {
-            enter: function(character, system, from) {
-                system.setQuality("inspiration", 1);
-                system.setCharacterText(
-                    "<p>You feel all inspired, why not have a go?</p>"
-                );
-            }
-        }
     )
 };
 
 // ---------------------------------------------------------------------------
 /* The Id of the starting situation. */
 //if (system.rnd.randomInt(1, 10) < 6) {
-  undum.game.start = "w_intro";
+//  undum.game.start = "w_intro";
 //} else {
-//  undum.game.start = "p_intro";
+  undum.game.start = "p_intro";
 //}
 
 // ---------------------------------------------------------------------------
@@ -2293,7 +2273,7 @@ undum.game.qualityGroups = {
  * to configure the character at the start of play. */
 undum.game.init = function(character, system) {
     //character.qualities.skill = 12;
-     character.qualities.profesion = 0; //Arqueólogo
+     character.qualities.profesion = 1; //Agente del Vaticano
 /*    character.qualities.nivel = 1;
     character.qualities.profesion = 1;
     character.qualities.stamina = 9;
@@ -2356,7 +2336,7 @@ undum.game.init = function(character, system) {
     //system.setCharacterText("<p>You are starting on an exciting journey.</p>");
 */    
     var nompers=document.getElementById("nompersonaje");
-    if (system.rnd.randomInt(1, 10) < 11) {
+    if (system.rnd.randomInt(1, 10) > 11) {
       undum.game.start = "w_intro";
       //system.writeBefore("<h1>WILLIAM BAFFORD</h1>",$("#character"));
       $('#nompersonaje').append('WILLIAM BAFFORD');
