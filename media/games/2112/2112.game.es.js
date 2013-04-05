@@ -841,8 +841,8 @@ undum.game.situations = {
         pasándola por el agujero del centro de los discos.</p>\
         <p>La barra de metal estaba conectada a un generador eléctrico. Puso, nerviso,\
         la mano sobre el potenciómetro y empezó a girarlo poco a poco.</p>\
-        <p>Conforme la potencia iba aumentaba, los discos comenzaron a vibrar. Dio\
-        un poco más de potencia y los discos comenzaron a girar. Unos giraban en\
+        <p>Conforme la potencia iba aumentando, los discos comenzaron a vibrar. Dio\
+        un poco más de potencia y los discos se pusieron a girar. Unos giraban en\
         la dirección de las agujas del reloj y otros en contra.</p>\
         <p>&#8212;¡SI! ¡SI! ¡SI! &#8212; ¡Lo vio! ¡No podía creer lo que estaba viendo!\
         Era la explicación de los símbolos que no había podido descifrar en los\
@@ -1144,7 +1144,7 @@ undum.game.situations = {
         <p class='transient'><a href='wcap2h10'>&gt; Seguir por el camino de la derecha.</a></p>"
     ), 
     wcap2h9: new undum.SimpleSituation(
-        "<p>&#8212; ¡Qué sea lo que Dios quiera! &#8212; se dijo a sí mismo mientras\
+        "<p>&#8212; ¡Que sea lo que Dios quiera! &#8212; se dijo a sí mismo mientras\
         se adentraba en la gruta de la izquierda.</p>\
         <p>Caminó unos cientos de metros antes de llegar a una cavidad inmensa. Tan\
         grande era, que la luz de la linterna no llegaba a iluminar ninguno de los\
@@ -1164,7 +1164,7 @@ undum.game.situations = {
         <p class='transient'><a href='wcap2h12'>&gt; Descender hasta la rampa.</a></p>"
     ),   
     wcap2h10: new undum.SimpleSituation(
-        "<p>&#8212; ¡Qué sea lo que Dios quiera! &#8212; se dijo a sí mismo mientras\
+        "<p>&#8212; ¡Que sea lo que Dios quiera! &#8212; se dijo a sí mismo mientras\
         se adentraba en la gruta de la derecha.</p>\
         <p>La cueva tenia una pendiente descendente, que le daba la impresión de\
         que iba en aumento conforme avanzaba.<p>\
@@ -1396,7 +1396,7 @@ undum.game.situations = {
         marcado. &#8212; ¡Es Nun!</p>\
         <p><img src='./media/games/2112/File_Nun.jpg' /></p>\
         <p>&#8212; ¿Y ese otro que está marcado? ¡Es Daleth!&#8212; era el tercer\
-        símbolo. <img src='./media/games/2112/File_Nun.jpg' /> &#8212; ¡Apuesto\
+        símbolo. <img src='./media/games/2112/File_Resh.jpg' /> &#8212; ¡Apuesto\
         lo que quieras a que el cuarto glifo es Resh! &#8212;\
         señaló al glifo que le quedaba por pulsar.</p>\
         <p><img src='./media/games/2112/File_Resh.jpg' /></p>\
@@ -1431,7 +1431,7 @@ undum.game.situations = {
         <p><br/></p>\
         <h1>*** FIN ***</h1>\
         <p><br/></p>\
-        <a href='extras.html' class='sticky'>&gt; Ver extras</a>"
+        <a href='./extras.html' class='raw'>&gt; Ver extras</a>"
     ), 
     wcap2h25: new undum.SimpleSituation(
         "<p>&#8212; ¡Leyendas para mantener al rebaño en el redil! &#8212; gritó.</p>\
@@ -1446,7 +1446,7 @@ undum.game.situations = {
         <p><br/></p>\
         <h1>*** FIN ***</h1>\
         <p><br/></p>\
-        <a href='extras.html' class='sticky'>&gt; Ver extras</a>"
+        <a href='./extras.html' class='raw'>&gt; Ver extras</a>"
     ), 
     wcap2h26: new undum.SimpleSituation(
         "<p>&#8212; ¡Esto cambiará la concepción de nuestra Historia! &#8212; se dijo.</p>\
@@ -1740,7 +1740,7 @@ undum.game.situations = {
         <h1>*** FIN ***</h1>"
     ),    
     wcap2h45: new undum.SimpleSituation(
-        "<p>&#8212; ¡Qué sea lo que Dios quiera! &#8212; se dijo a sí mismo mientras\
+        "<p>&#8212; ¡Que sea lo que Dios quiera! &#8212; se dijo a sí mismo mientras\
         se adentraba en el pasadizo.</p>\
         <p>La escalera hacía un giro hacia la izquierda, llegando a una zona donde\
         las paredes y techo estaban perfectamente talladas, formando un túnel\
@@ -1982,7 +1982,7 @@ undum.game.situations = {
         <p class='transient'><a href='wcap2h60'>&gt; Ir por la galería descendente.</a></p>"
     ),  
     wcap2h59: new undum.SimpleSituation(
-        "<p>&#8212; ¡Qué sea lo que Dios quiera! &#8212; se dijo a sí mismo mientras\
+        "<p>&#8212; ¡Que sea lo que Dios quiera! &#8212; se dijo a sí mismo mientras\
         se adentraba en la galería que ascendía hacia la cámara del rey.</p>\
         <p>La cámara del rey era la más grande de las que se había descubierto\
         en el interior de la Gran Pirámide. Tenía más de veinte metros de altura\
@@ -2001,7 +2001,7 @@ undum.game.situations = {
         <p class='transient'><a href='wcap2h63'>&gt; Ir a la cámara de la reina.</a></p>"
     ),   
     wcap2h60: new undum.SimpleSituation(
-        "<p>&#8212; ¡Qué sea lo que Dios quiera! &#8212; se dijo a sí mismo mientras\
+        "<p>&#8212; ¡Que sea lo que Dios quiera! &#8212; se dijo a sí mismo mientras\
         se adentraba en la galería que descendía hasta la cámara de la reina.</p>\
         <p>La cámara de la reina era una estancia muy amplia, de unos ochenta o\
         noventa metros cuadrados. La altura a la que se encontraba el techo\
